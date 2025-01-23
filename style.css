@@ -1,0 +1,20 @@
+html {
+    background-color: #FAFAFA;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: clamp(96px, 10vw, 256px);
+}
