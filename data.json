@@ -1,0 +1,9 @@
+[
+    { "image": "testBlue.png", "title": "Item 1", "style": "Dot", "price": "19.99", "color": "Blue"},
+    { "image": "testBlue.png", "title": "Item 2", "style": "Line", "price": "29.99", "color": "Blue"},
+    { "image": "testBlue.png", "title": "Item 3", "style": "Grid", "price": "39.99", "color": "Blue"},
+    { "image": "testRed.png", "title": "Item 8", "style": "Dot", "price": "19.99", "color": "Red"},
+    { "image": "testRed.png", "title": "Item 9", "style": "Line", "price": "29.99", "color": "Red"},
+    { "image": "testRed.png", "title": "Item 10", "style": "Grid", "price": "39.99", "color": "Red"}
+  ]
+  

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Товар</title>
+    <script src="product.js" defer></script>
+    <style>
+        .product-container {
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css"> <!-- CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Google Font Inter Variable -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Google Font Inter Variable -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet"> <!-- Google Font Inter Variable -->
+    <script src="https://cdn.tailwindcss.com"></script> <!-- Tailwind -->
+    <script src="/fetch.js" defer></script>
+    <script src="/filter.js" defer></script>
+</head>
+
+<body>
+
+    <div class="product-container">
+        <h1 id="product-title"></h1>
+        <img id="product-image" src="" alt="">
+        <p id="product-style"></p>
+        <p><strong>Цена:</strong> <span id="product-price"></span></p>
+        <p><strong>Цвет:</strong> <span id="product-color"></span></p>
+        <a href="/">Назад</a>
+    </div>
+
+</body>
+
+</html>

@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MESOKI</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css"> <!-- CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Google Font Inter Variable -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Google Font Inter Variable -->
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
+        rel="stylesheet"> <!-- Google Font Inter Variable -->
+    <script src="https://cdn.tailwindcss.com"></script> <!-- Tailwind -->
+    <script src="/fetch.js" defer></script>
+    <script src="/filter.js" defer></script>
 </head>
 
 <body>
@@ -29,72 +32,34 @@
             <path d="M695.778 1.26742H720.07V149.133H695.778V1.26742Z" />
         </svg>
     </header>
-    <section class="item_grid">
-        <div class="item">
-            <div class="item_image">
-                <img src="https://via.placeholder.com/150" alt="image">
-            </div>
-            <div class="item_content">
-                <p class="text_primary">Test</p>
-                <p class="text_secondary">hello</p>
-            </div>
-        </div>
-        <div class="item">
-            <div class="item_image">
-                <img src="https://via.placeholder.com/150" alt="image">
-            </div>
-            <div class="item_content">
-                <p class="text_primary">Test</p>
-                <p class="text_secondary">hello</p>
-            </div>
-        </div>
-        <div class="item">
-            <div class="item_image">
-                <img src="https://via.placeholder.com/150" alt="image">
-            </div>
-            <div class="item_content">
-                <p class="text_primary">Test</p>
-                <p class="text_secondary">hello</p>
-            </div>
-        </div>
-        <div class="item">
-            <div class="item_image">
-                <img src="https://via.placeholder.com/150" alt="image">
-            </div>
-            <div class="item_content">
-                <p class="text_primary">Test</p>
-                <p class="text_secondary">hello</p>
-            </div>
-        </div>
-        <div class="item">
-            <div class="item_image">
-                <img src="https://via.placeholder.com/150" alt="image">
-            </div>
-            <div class="item_content">
-                <p class="text_primary">Test</p>
-                <p class="text_secondary">hello</p>
-            </div>
-        </div>
-        <div class="item">
-            <div class="item_image">
-                <img src="https://via.placeholder.com/150" alt="image">
-            </div>
-            <div class="item_content">
-                <p class="text_primary">Test</p>
-                <p class="text_secondary">hello</p>
-            </div>
-        </div>
-        </div>
-        <div class="item">
-            <div class="item_image">
-                <img src="https://via.placeholder.com/150" alt="image">
-            </div>
-            <div class="item_content">
-                <p class="text_primary">Test</p>
-                <p class="text_secondary">hello</p>
-            </div>
-        </div>
+
+    <section class="filter-row">
+        <button class="btn color-filter-btn style-filter-btn" data-filter="all">All</button>
+        <button class="btn color-filter-btn" data-filter="red">Red</button>
+        <button class="btn color-filter-btn" data-filter="blue">Blue</button>
+        <button class="btn style-filter-btn" data-filter="dot">Dot</button>
+        <button class="btn style-filter-btn" data-filter="line">Line</button>
+        <button class="btn style-filter-btn" data-filter="grid">Grid</button>
     </section>
+
+    <section class="item_grid"></section>
+    <template id="item_template">
+        <div class="item" data-color="">
+            <div class="item_image">
+                <img src="" alt="">
+            </div>
+            <div class="item_content">
+                <div>
+                    <h3 class="item_title text_primary"></h3> <!-- Заголовок важен -->
+                    <p class="item_style text_tertiary"></p>
+                </div>
+                <div>
+                    <strong class="item_price text_primary text-right"></strong> <!-- Цена важна -->
+                    <p class="item_color text_tertiary text-right"></p>
+                </div>
+            </div>
+        </div>
+    </template>
 </body>
 
 </html>
