@@ -405,7 +405,6 @@ p {
 svg.logo {
     display: block;
     height: 1.5rem;
-    width: fit-content;
     margin: 0;
     padding: 0;
     fill: var(--color-neutral-300);
