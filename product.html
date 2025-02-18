@@ -1,45 +1,76 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="eng" class="min-height-auto background-color-primary">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Товар</title>
     <script src="product.js" defer></script>
-    <style>
-        .product-container {
-            max-width: 600px;
-            margin: auto;
-            text-align: center;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-        }
     </style>
-    <link rel="stylesheet" href="style.css"> <!-- CSS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Google Font Inter Variable -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Google Font Inter Variable -->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/adaptive.css">
+    <link rel="stylesheet" href="/attributes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet"> <!-- Google Font Inter Variable -->
-    <script src="https://cdn.tailwindcss.com"></script> <!-- Tailwind -->
+        rel="stylesheet">
     <script src="/fetch.js" defer></script>
     <script src="/filter.js" defer></script>
+    <script src="/header.js" defer></script>
+    <script src="/footer.js" defer></script>
 </head>
 
 <body>
+    <div id="header-container"></div>
+    <div class="display-flex flex-direction-column justify-content-center width-100 align-items-center">
+        <div class="product-container display-grid width-100">
+            <div class="background-color-secondary outline margin-xxxl border-radius-xs">
+                <img class="product-image" id="product-image" src="" alt="">
+            </div>
+            <div
+                class="display-flex flex-direction-column justify-content-space-between gap-xs padding-right-xxxl padding-top-xxxl padding-bottom-xxxl sm-padding-top-none sm-padding-right-xxxl sm-padding-bottom-xxxl sm-padding-left-xxxl sm-gap-xxxl">
+                <div class="display-flex flex-direction-row justify-content-space-between gap-md">
+                    <div class="display-flex flex-direction-column justify-content-start gap-xxs">
+                        <h1 class="" id="product-title"></h1>
+                        <h5 class="text_tertiary"><span id="product-style"></span></h5>
+                    </div>
+                    <div class="display-flex flex-direction-column justify-content-start gap-xxs">
+                        <h1 class="text-align-right"><span id="product-price"></span></h1>
+                        <h5 class="text_tertiary text-align-right"><span id="product-color"></span></h5>
+                    </div>
+                </div>
+                <!--
+                <div class="display-flex justify-content-start flex-wrap-wrap gap-lg">
+                    <div class="display-flex flex-direction-column justify-content-start gap-xs width-fit-content">
+                        <p class="text_tertiary text-align-left">Color</p>
+                        <div
+                            class="gap-xs display-flex flex-direction-row justify-content-start padding-xs background-color-primary outline border-radius-sm">
+                            <button class="color-filter-btn active-filter" data-filter="all">All</button>
+                            <button class="color-filter-btn" data-filter="red">Red</button>
+                            <button class="color-filter-btn" data-filter="blue">Blue</button>
+                        </div>
+                    </div>
+                    <div class="display-flex flex-direction-column justify-content-start gap-xs width-fit-content">
+                        <p class="text_tertiary text-align-left">Layout</p>
+                        <div
+                            class="gap-xs display-flex flex-direction-row justify-content-start padding-xs background-color-primary outline border-radius-sm">
+                            <button class="filter-btn active-filter" data-filter="all">All</button>
+                            <button class="filter-btn" data-filter="dot">Dot</button>
+                            <button class="filter-btn" data-filter="line">Line</button>
+                            <button class="filter-btn" data-filter="grid">Grid</button>
+                        </div>
+                    </div>
+                </div>
+                -->
+                <button class="primary-btn" id="add-to-cart-btn">Buy on Amazon</button>
+            </div>
 
-    <div class="product-container">
-        <h1 id="product-title"></h1>
-        <img id="product-image" src="" alt="">
-        <p id="product-style"></p>
-        <p><strong>Цена:</strong> <span id="product-price"></span></p>
-        <p><strong>Цвет:</strong> <span id="product-color"></span></p>
-        <a href="/">Назад</a>
+        </div>
     </div>
 
+
+    <div id="footer-container"></div>
 </body>
 
 </html>

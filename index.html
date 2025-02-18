@@ -1,65 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="min-height-auto">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MESOKI</title>
     <link rel="stylesheet" href="style.css"> <!-- CSS -->
+    <link rel="stylesheet" href="attributes.css"> <!-- CSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Google Font Inter Variable -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Google Font Inter Variable -->
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet"> <!-- Google Font Inter Variable -->
-    <script src="https://cdn.tailwindcss.com"></script> <!-- Tailwind -->
     <script src="/fetch.js" defer></script>
     <script src="/filter.js" defer></script>
+    <script src="/header.js" defer></script>
+    <script src="/footer.js" defer></script>
 </head>
 
-<body>
-    <header>
-        <svg viewBox="0 0 720 150.401" xmlns="http://www.w3.org/2000/svg" class="logo">
-            <path
-                d="M0.0703125 1.26742H31.5446L78.8617 117.659L125.334 1.26742H156.174V149.133H132.727V40.3462L88.3674 149.133H67.8774L23.5176 40.3462V149.133H0.0703125V1.26742Z" />
-            <path
-                d="M173.866 1.26742H272.936V22.8136H198.158V63.7935H272.936V84.706H198.158V127.587H272.936V149.133H173.866V1.26742Z" />
-            <path
-                d="M307.228 100.971C307.932 109.702 311.382 116.744 317.578 122.095C323.915 127.305 332.294 129.911 342.715 129.911C351.587 129.911 358.84 128.08 364.473 124.419C370.106 120.616 372.922 115.124 372.922 107.942C372.922 103.999 372.007 100.83 370.176 98.4364C368.345 95.9016 365.74 93.7892 362.36 92.0993C358.981 90.4094 354.897 89.0012 350.109 87.8746C345.321 86.748 339.969 85.6918 334.055 84.706C327.999 83.5794 322.084 82.1712 316.311 80.4813C310.537 78.7914 305.397 76.4678 300.89 73.5105C296.525 70.4123 293.004 66.4692 290.329 61.6812C287.653 56.7523 286.315 50.6264 286.315 43.3036C286.315 36.8256 287.582 30.9814 290.117 25.7709C292.652 20.4196 296.173 15.8428 300.679 12.0405C305.326 8.23823 310.889 5.28092 317.367 3.16855C323.845 1.05618 331.027 0 338.913 0C347.363 0 354.967 1.12659 361.727 3.37978C368.486 5.49216 374.26 8.5903 379.048 12.6742C383.977 16.6173 387.779 21.4053 390.455 27.0383C393.131 32.6713 394.609 38.8676 394.891 45.6272H370.599C369.613 38.0226 366.303 31.9672 360.67 27.4608C355.178 22.8136 347.926 20.49 338.913 20.49C330.464 20.49 323.634 22.2503 318.423 25.7709C313.213 29.2915 310.607 34.5724 310.607 41.6137C310.607 45.4159 311.523 48.5845 313.353 51.1193C315.184 53.5134 317.789 55.4849 321.169 57.034C324.549 58.583 328.562 59.9209 333.21 61.0475C337.998 62.0332 343.279 63.019 349.052 64.0048C355.249 65.1314 361.234 66.5396 367.008 68.2295C372.781 69.9194 377.921 72.3134 382.428 75.4116C386.934 78.5097 390.525 82.4528 393.201 87.2409C395.877 92.0289 397.214 98.0844 397.214 105.407C397.214 112.026 395.877 118.152 393.201 123.785C390.525 129.277 386.793 133.995 382.005 137.938C377.217 141.881 371.444 144.979 364.684 147.232C358.065 149.344 350.672 150.401 342.504 150.401C333.35 150.401 325.112 149.204 317.789 146.81C310.466 144.416 304.2 141.036 298.989 136.67C293.92 132.164 289.977 126.883 287.16 120.828C284.484 114.631 283.006 107.872 282.724 100.549L307.228 100.971Z" />
-            <path
-                d="M549.5 75.2003C549.5 86.0438 547.74 96.0424 544.219 105.196C540.698 114.35 535.769 122.306 529.432 129.066C523.095 135.685 515.491 140.895 506.619 144.697C497.888 148.5 488.241 150.401 477.679 150.401C467.117 150.401 457.401 148.5 448.529 144.697C439.797 140.895 432.263 135.685 425.926 129.066C419.589 122.306 414.66 114.35 411.14 105.196C407.619 96.0424 405.859 86.0438 405.859 75.2003C405.859 64.3568 407.619 54.3583 411.14 45.2047C414.66 36.0511 419.589 28.1649 425.926 21.5462C432.263 14.7866 439.797 9.50566 448.529 5.7034C457.401 1.90113 467.117 0 477.679 0C488.241 0 497.888 1.90113 506.619 5.7034C515.491 9.50566 523.095 14.7866 529.432 21.5462C535.769 28.1649 540.698 36.0511 544.219 45.2047C547.74 54.3583 549.5 64.3568 549.5 75.2003ZM430.785 75.2003C430.785 82.9457 431.911 90.1277 434.164 96.7465C436.418 103.365 439.586 109.069 443.67 113.857C447.754 118.645 452.683 122.377 458.457 125.052C464.23 127.728 470.638 129.066 477.679 129.066C484.72 129.066 491.128 127.728 496.902 125.052C502.676 122.377 507.604 118.645 511.688 113.857C515.772 109.069 518.941 103.365 521.194 96.7465C523.447 90.1277 524.574 82.9457 524.574 75.2003C524.574 67.3142 523.447 60.1321 521.194 53.6542C518.941 47.0354 515.772 41.332 511.688 36.544C507.604 31.7559 502.676 28.0241 496.902 25.3484C491.128 22.6728 484.72 21.3349 477.679 21.3349C470.638 21.3349 464.23 22.6728 458.457 25.3484C452.683 28.0241 447.754 31.7559 443.67 36.544C439.586 41.332 436.418 47.0354 434.164 53.6542C431.911 60.1321 430.785 67.3142 430.785 75.2003Z" />
-            <path
-                d="M562.603 1.26742H586.895V77.5239L654.702 1.26742H684.276L629.988 63.3711L688.289 149.133H658.927L612.455 81.3262L586.895 110.054V149.133H562.603V1.26742Z" />
-            <path d="M695.778 1.26742H720.07V149.133H695.778V1.26742Z" />
-        </svg>
-    </header>
+<body class="min-height-auto">
+    <div id="header-container"></div>
 
-    <section class="filter-row">
-        <button class="btn color-filter-btn style-filter-btn" data-filter="all">All</button>
-        <button class="btn color-filter-btn" data-filter="red">Red</button>
-        <button class="btn color-filter-btn" data-filter="blue">Blue</button>
-        <button class="btn style-filter-btn" data-filter="dot">Dot</button>
-        <button class="btn style-filter-btn" data-filter="line">Line</button>
-        <button class="btn style-filter-btn" data-filter="grid">Grid</button>
+    <section
+        class="title padding-left-xxxl padding-right-xxxl padding-top-xxxl padding-bottom-xxxl outline-bottom display-flex flex-direction-column justify-content-center align-items-left gap-xxs background-color-primary">
+        <h1>Shop</h1>
+        <h5 class="text_tertiary">Browse our collection of color notebooks</h5>
     </section>
 
-    <section class="item_grid"></section>
+    <section
+        class="margin-left-xxxl margin-right-xxxl margin-top-xxxl margin-bottom-xxxl gap-lg display-flex flex-direction-row justify-content-start">
+        <div class="display-flex flex-direction-column justify-content-start gap-sm">
+            <label class="filter-label text_tertiary text-align-left">Color</label>
+            <div class="gap-xs display-flex flex-direction-row justify-content-start padding-xs background-color-primary outline border-radius-sm">
+                <button class="color-filter-btn active-filter" data-filter="all">All</button>
+                <button class="color-filter-btn" data-filter="red">Red</button>
+                <button class="color-filter-btn" data-filter="blue">Blue</button>
+            </div>
+        </div>
+        <div class="display-flex flex-direction-column justify-content-start gap-sm">
+            <label class="filter-label text_tertiary text-align-left">Layout</label>
+            <div class="gap-xs display-flex flex-direction-row justify-content-start padding-xs background-color-primary outline border-radius-sm">
+                <button class="filter-btn active-filter" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="dot">Dot</button>
+                <button class="filter-btn" data-filter="line">Line</button>
+                <button class="filter-btn" data-filter="grid">Grid</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="item_grid margin-top-lg margin-right-xxxl margin-bottom-xxxl margin-left-xxxl min-height-100">
+    </section>
     <template id="item_template">
         <div class="item" data-color="">
             <div class="item_image">
                 <img src="" alt="">
             </div>
             <div class="item_content">
-                <div>
-                    <h3 class="item_title text_primary"></h3> <!-- Заголовок важен -->
+                <div class="display-flex flex-direction-column justify-content-between gap-xxs">
+                    <h6 class="item_title text_primary"></h6>
                     <p class="item_style text_tertiary"></p>
                 </div>
-                <div>
-                    <strong class="item_price text_primary text-right"></strong> <!-- Цена важна -->
-                    <p class="item_color text_tertiary text-right"></p>
+                <div class="display-flex flex-direction-column justify-content-between gap-xxs">
+                    <p class="item_price text_primary text-align-right"></p>
+                    <p class="item_color text_tertiary text-align-right"></p>
                 </div>
             </div>
         </div>
     </template>
+
+    <div id="footer-container"></div>
 </body>
 
 </html>

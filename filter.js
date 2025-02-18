@@ -4,6 +4,8 @@ let currentStyleFilter = "all";
 // Фильтр по цвету
 document.querySelectorAll(".color-filter-btn").forEach(button => {
     button.addEventListener("click", () => {
+        document.querySelectorAll(".color-filter-btn").forEach(btn => btn.classList.remove("active-filter")); // Убираем активный класс
+        button.classList.add("active-filter"); // Добавляем активный класс
         currentColorFilter = button.getAttribute("data-filter"); // Сохраняем выбранный цвет
         console.log("Фильтр (цвет) выбран:", currentColorFilter);
         applyFilters(currentColorFilter, currentStyleFilter);
@@ -11,9 +13,11 @@ document.querySelectorAll(".color-filter-btn").forEach(button => {
 });
 
 // Фильтр по описанию (Line, Grid, Dot)
-document.querySelectorAll(".style-filter-btn").forEach(button => {
+document.querySelectorAll(".filter-btn").forEach(button => {
     button.addEventListener("click", () => {
-        currentStyleFilter = button.getAttribute("data-filter"); // Сохраняем выбранное описание
+        document.querySelectorAll(".filter-btn").forEach(btn => btn.classList.remove("active-filter")); // Убираем активный класс
+        button.classList.add("active-filter"); // Добавляем активный класс
+        currentStyleFilter = button.getAttribute("data-filter"); // Сохраняем выбранный стиль
         console.log("Фильтр (описание) выбран:", currentStyleFilter);
         applyFilters(currentColorFilter, currentStyleFilter);
     });
