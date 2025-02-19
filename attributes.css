@@ -1,3 +1,69 @@
+.text-primary {
+    color: var(--text_primary);
+}
+
+.text-secondary {
+    color: var(--text_secondary);
+}
+
+.text-tertiary {
+    color: var(--text_tertiary);
+}
+
+.font-inter {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.font-weight-300 {
+    font-weight: 300;
+}
+
+.font-weight-400 {
+    font-weight: 400;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.font-size-xs {
+    font-size: var(--font-size-xs);
+}
+
+.font-size-sm {
+    font-size: var(--font-size-sm);
+}
+
+.font-size-md {
+    font-size: var(--font-size-md);
+}
+
+.font-size-lg {
+    font-size: var(--font-size-lg);
+}
+
+.font-size-xl {
+    font-size: var(--font-size-xl);
+}
+
+.line-height-sm {
+    line-height: var(--line-height-sm);
+}
+
+.line-height-md {
+    line-height: var(--line-height-md);
+}
+
+.line-height-lg {
+    line-height: var(--line-height-lg);
+}
+
+.line-height-xl {
+    line-height: var(--line-height-xl);
+}
+
 .text-align-center {
     text-align: center;
 }
@@ -543,35 +609,35 @@
 }
 
 .border-radius-xxs {
-    border-radius: var(--spacing-xxs);
+    border-radius: var(--border-radius-xxs);
 }
 
 .border-radius-xs {
-    border-radius: var(--spacing-xs);
+    border-radius: var(--border-radius-xs);
 }
 
 .border-radius-sm {
-    border-radius: var(--spacing-sm);
+    border-radius: var(--border-radius-sm);
 }
 
 .border-radius-md {
-    border-radius: var(--spacing-md);
+    border-radius: var(--border-radius-md);
 }
 
 .border-radius-lg {
-    border-radius: var(--spacing-lg);
+    border-radius: var(--border-radius-lg);
 }
 
 .border-radius-xl {
-    border-radius: var(--spacing-xl);
+    border-radius: var(--border-radius-xl);
 }
 
 .border-radius-xxl {
-    border-radius: var(--spacing-xxl);
+    border-radius: var(--border-radius-xxl);
 }
 
-.border-radius-xxxl {
-    border-radius: var(--spacing-xxxl);
+.border-radius-rounded {
+    border-radius: var(--border-radius-rounded);
 }
 
 .min-height-100 {
@@ -604,6 +670,22 @@
 
 .max-width-auto {
     max-width: auto;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.position-sticky {
+    position: sticky;
 }
 
 @media (max-width: 768px) {

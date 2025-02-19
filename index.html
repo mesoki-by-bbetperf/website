@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="min-height-auto">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -17,32 +17,33 @@
     <script src="/filter.js" defer></script>
     <script src="/header.js" defer></script>
     <script src="/footer.js" defer></script>
+    <script src="/mover.js" defer></script>
 </head>
 
-<body class="min-height-auto">
+<body>
     <div id="header-container"></div>
 
     <section
-        class="title padding-left-xxxl padding-right-xxxl padding-top-xxxl padding-bottom-xxxl outline-bottom display-flex flex-direction-column justify-content-center align-items-left gap-xxs background-color-primary">
-        <h1>Shop</h1>
-        <h5 class="text_tertiary">Browse our collection of color notebooks</h5>
+        class="padding-xxxl sm-padding-xl outline-bottom display-flex flex-direction-column justify-content-center align-items-left gap-sm background-color-primary">
+        <h1 class="font-weight-500 text-align-left">Shop notebooks</h1>
+        <h5 class="text-secondary">Browse our collection of shiny colors</h5>
     </section>
 
     <section
-        class="margin-left-xxxl margin-right-xxxl margin-top-xxxl margin-bottom-xxxl gap-lg display-flex flex-direction-row justify-content-start">
+        class="margin-xxxl sm-margin-xl gap-lg display-flex flex-direction-row justify-content-start flex-wrap-wrap">
         <div class="display-flex flex-direction-column justify-content-start gap-sm">
-            <label class="filter-label text_tertiary text-align-left">Color</label>
+            <p class="text-tertiary text-align-left">Color</p>
             <div
-                class="gap-xs display-flex flex-direction-row justify-content-start padding-xs background-color-primary outline border-radius-sm">
+                class="gap-xs display-flex flex-direction-row justify-content-start padding-xs background-color-primary outline border-radius-lg">
                 <button class="color-filter-btn active-filter" data-filter="all">All</button>
                 <button class="color-filter-btn" data-filter="red">Red</button>
                 <button class="color-filter-btn" data-filter="blue">Blue</button>
             </div>
         </div>
         <div class="display-flex flex-direction-column justify-content-start gap-sm">
-            <label class="filter-label text_tertiary text-align-left">Layout</label>
+            <p class="text-tertiary text-align-left">Layout</p>
             <div
-                class="gap-xs display-flex flex-direction-row justify-content-start padding-xs background-color-primary outline border-radius-sm">
+                class="gap-xs display-flex flex-direction-row justify-content-start padding-xs background-color-primary outline border-radius-lg">
                 <button class="filter-btn active-filter" data-filter="all">All</button>
                 <button class="filter-btn" data-filter="dot">Dot</button>
                 <button class="filter-btn" data-filter="line">Line</button>
@@ -51,7 +52,7 @@
         </div>
     </section>
 
-    <section class="item_grid margin-top-lg margin-right-xxxl margin-bottom-xxxl margin-left-xxxl min-height-100">
+    <section class="item_grid margin-xxxl sm-margin-xl min-height-100">
     </section>
     <template id="item_template">
         <div class="item" data-color="">
@@ -61,11 +62,11 @@
             <div class="item_content">
                 <div class="display-flex flex-direction-column justify-content-between gap-xxs">
                     <h6 class="item_title text_primary"></h6>
-                    <p class="item_style text_tertiary"></p>
+                    <p class="item_style text-tertiary"></p>
                 </div>
                 <div class="display-flex flex-direction-column justify-content-between gap-xxs">
                     <p class="item_price text_primary text-align-right"></p>
-                    <p class="item_color text_tertiary text-align-right"></p>
+                    <p class="item_color text-tertiary text-align-right"></p>
                 </div>
             </div>
         </div>

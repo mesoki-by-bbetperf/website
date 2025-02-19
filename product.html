@@ -19,25 +19,27 @@
     <script src="/filter.js" defer></script>
     <script src="/header.js" defer></script>
     <script src="/footer.js" defer></script>
+    <script src="/mover.js" defer></script>
 </head>
 
 <body>
     <div id="header-container"></div>
     <div class="display-flex flex-direction-column justify-content-center width-100 align-items-center">
         <div class="product-container display-grid width-100">
-            <div class="background-color-secondary outline margin-xxxl border-radius-xs">
+            <div class="background-color-secondary outline margin-xxxl sm-margin-xl border-radius-lg">
                 <img class="product-image" id="product-image" src="" alt="">
             </div>
             <div
-                class="display-flex flex-direction-column justify-content-space-between gap-xs padding-right-xxxl padding-top-xxxl padding-bottom-xxxl sm-padding-top-none sm-padding-right-xxxl sm-padding-bottom-xxxl sm-padding-left-xxxl sm-gap-xxxl">
-                <div class="display-flex flex-direction-row justify-content-space-between gap-md">
-                    <div class="display-flex flex-direction-column justify-content-start gap-xxs">
-                        <h1 class="" id="product-title"></h1>
-                        <h5 class="text_tertiary"><span id="product-style"></span></h5>
+                class="display-flex flex-direction-column justify-content-space-between gap-xs padding-top-xxxl padding-right-xxxl padding-bottom-xxxl padding-left-none sm-padding-top-none sm-padding-right-xl sm-padding-bottom-xl sm-padding-left-xl sm-gap-xl">
+                <div class="display-flex flex-direction-row justify-content-space-between">
+                    <div class="display-flex flex-direction-column justify-content-start gap-sm">
+                        <h1 class="text-primary font-weight-500" id="product-title">
+                            </h6>
+                            <h5 class="text-secondary"><span id="product-style"></span></h5>
                     </div>
-                    <div class="display-flex flex-direction-column justify-content-start gap-xxs">
-                        <h1 class="text-align-right"><span id="product-price"></span></h1>
-                        <h5 class="text_tertiary text-align-right"><span id="product-color"></span></h5>
+                    <div class="display-flex flex-direction-column justify-content-start gap-sm">
+                        <h1 class="text-primary font-weight-500 text-align-right"><span id="product-price"></span></h6>
+                            <h5 class="text-secondary text-align-right"><span id="product-color"></span></h5>
                     </div>
                 </div>
                 <!--
