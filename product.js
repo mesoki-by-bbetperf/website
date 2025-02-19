@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById("product-title").textContent = product.title;
             document.getElementById("product-image").alt = product.title;
             document.getElementById("product-style").textContent = product.style;
-            document.getElementById("product-price").textContent = product.price;
+            document.getElementById("product-price").textContent = `$${parseFloat(product.price).toFixed(2)}`;
             document.getElementById("product-color").textContent = product.color;
         })
         .catch(error => console.error("Ошибка загрузки JSON:", error));

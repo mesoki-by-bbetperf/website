@@ -20,6 +20,10 @@
     font-weight: 300;
 }
 
+.font-weight-350 {
+    font-weight: 350;
+}
+
 .font-weight-400 {
     font-weight: 400;
 }
@@ -532,20 +536,28 @@
     background-color: var(--background_tertiary);
 }
 
-.outline-bottom {
-    box-shadow: 0 1px 0 var(--outline);
-}
-
 .outline-top {
     box-shadow: 0 -1px 0 var(--outline);
+}
+
+.outline-top-and-bottom {
+    box-shadow: 0 -1px 0 var(--outline), 0 1px 0 var(--outline);
+}
+
+.outline-right {
+    box-shadow: 1px 0 0 var(--outline);
+}
+
+.outline-right-and-left {
+    box-shadow: 1px 0 0 var(--outline), -1px 0 0 var(--outline);
 }
 
 .outline-left {
     box-shadow: -1px 0 0 var(--outline);
 }
 
-.outline-right {
-    box-shadow: 1px 0 0 var(--outline);
+.outline-bottom {
+    box-shadow: 0 1px 0 var(--outline);
 }
 
 .outline {

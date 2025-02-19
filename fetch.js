@@ -29,7 +29,7 @@ function renderItems(items) {
         clone.querySelector("img").alt = item.title;
         clone.querySelector(".item_title").textContent = item.title;
         clone.querySelector(".item_style").textContent = item.style;
-        clone.querySelector(".item_price").textContent = item.price;
+        clone.querySelector(".item_price").textContent = `$${parseFloat(item.price).toFixed(2)}`;
         clone.querySelector(".item_color").textContent = item.color;
 
         // Открываем товар в новом окне
