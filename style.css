@@ -243,7 +243,6 @@
     --color-stone-950: oklch(0.147 0.004 49.25);
     --color-black: #000;
     --color-white: #fff;
-
     --background_primary: var(--color-white);
     --background_secondary: var(--color-neutral-50);
     --background_tertiary: var(--color-neutral-200);
@@ -289,6 +288,14 @@
     --line-height-lg: 1.75rem;
     --line-height-xl: 2rem;
     --line-height-xxl: 2.25rem;
+    --max-width-default: 80rem;
+    --height-xs: 2rem;
+    --height-sm: 4rem;
+    --height-md: 8rem;
+    --height-lg: 16rem;
+    --height-xl: 24rem;
+    --height-xxl: 32rem;
+    --height-xxxl: 48rem;
 }
 
 body {
@@ -298,7 +305,7 @@ body {
 
 html {
     background-color: var(--background_secondary);
-    font-size: clamp(12px, 1vw, 14px);
+    font-size: clamp(14px, 1vw, 16px);
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -368,6 +375,7 @@ svg.logo:hover {
 }
 
 .item {
+    height: fit-content;
     border-radius: var(--border-radius-lg);
     display: flex;
     flex-direction: column;

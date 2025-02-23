@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const header = document.querySelector("header");
         if (header) {
             document.body.style.paddingTop = `${header.offsetHeight}px`;
+            document.body.style.transition = `padding-top 0.3s ease`;
+            document.body.style.minHeight = `calc(100vh - ${header.offsetHeight}px)`;
             console.log("Обновлена высота хедера:", header.offsetHeight);
         }
     }
