@@ -555,3 +555,9 @@ a {
     pointer-events: none;
     /* Чтобы убрать клики после исчезновения */
 }
+
+@media (hover: none) {
+    *:hover {
+        pointer-events: none !important;
+    }
+}
