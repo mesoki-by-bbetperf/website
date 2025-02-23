@@ -243,6 +243,13 @@
     --color-stone-950: oklch(0.147 0.004 49.25);
     --color-black: #000;
     --color-white: #fff;
+    --color-brand-yellow: #FFD400;
+    --color-brand-blue: #0080FF;
+    --color-brand-orange: #FF6A00;
+    --color-brand-green: #00B300;
+    --color-brand-red: #FF1A40;
+    --color-brand-purple: #A000FF;
+    --color-brand-pink: #FF00A0;
     --background_primary: var(--color-white);
     --background_secondary: var(--color-neutral-50);
     --background_tertiary: var(--color-neutral-200);
@@ -469,14 +476,24 @@ button:hover {
     transition: ease .25s;
 }
 
-.active-filter {
-    background-color: var(--color-neutral-200);
-    color: var(--text_primary);
-    transition: background-color 0.3s ease, color 0.3s ease-in-out;
+.filter-btn.active-filter {
+    background-color: var(--color-brand-blue);
+    color: var(--text_primary_inverse);
+    transition: opacity 0.3s ease;
 }
 
-.active-filter:hover {
-    background-color: var(--color-neutral-300);
+.filter-btn.active-filter:hover {
+    opacity: 0.8;
+}
+
+.color-filter-btn.active-filter {
+    background-color: var(--color-brand-red);
+    color: var(--text_primary_inverse);
+    transition: opacity 0.3s ease;
+}
+
+.color-filter-btn.active-filter:hover {
+    opacity: 0.8;
 }
 
 .product-image {
