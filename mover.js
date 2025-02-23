@@ -1,24 +1,32 @@
 document.addEventListener("DOMContentLoaded", function () {
-    function updatePadding() {
-        const header = document.querySelector("header");
-        if (header) {
-            document.body.style.paddingTop = `${header.offsetHeight}px`;
-            document.body.style.transition = `padding-top 0.3s ease`;
-            document.body.style.minHeight = `calc(100vh - ${header.offsetHeight}px)`;
-            console.log("Обновлена высота хедера:", header.offsetHeight);
-        }
+    function updateLayout() {
+        setTimeout(() => {
+            const header = document.querySelector("header");
+            if (header) {
+                const headerHeight = header.getBoundingClientRect().height; // Точная высота хедера
+
+                // Устанавливаем `padding-top` для body
+                document.body.style.paddingTop = `${headerHeight}px`;
+                document.body.style.minHeight = `calc(100vh - ${headerHeight}px)`;
+
+                // Обновляем `scroll-margin-top` для элементов с `data-scroll-target`
+                document.querySelectorAll("[data-scroll-target]").forEach(target => {
+                    target.style.scrollMarginTop = `${headerHeight}px`; // Чуть больше для удобства
+                });
+
+                console.log("Обновлена высота хедера:", headerHeight);
+            }
+        }, 10); // Минимальная задержка для корректного расчёта в Safari
     }
 
     // Следим за изменением размеров экрана
-    window.addEventListener("resize", updatePadding);
+    window.addEventListener("resize", updateLayout);
 
-    // Следим за появлением хедера в DOM
-    const observer = new MutationObserver(() => {
-        if (document.querySelector("header")) {
-            updatePadding();
-            observer.disconnect(); // Остановить наблюдение после загрузки хедера
-        }
-    });
+    // Следим за изменением размеров хедера (лучше, чем MutationObserver)
+    const resizeObserver = new ResizeObserver(updateLayout);
+    const header = document.querySelector("header");
+    if (header) resizeObserver.observe(header);
 
-    observer.observe(document.body, { childList: true, subtree: true });
+    // Вызываем `updateLayout` после полной загрузки страницы
+    window.addEventListener("load", updateLayout);
 });

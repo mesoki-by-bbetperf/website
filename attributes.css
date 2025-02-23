@@ -2,6 +2,10 @@
     color: var(--text_primary);
 }
 
+.text-primary-inverse {
+    color: var(--text_primary_inverse);
+}
+
 .text-secondary {
     color: var(--text_secondary);
 }
@@ -14,6 +18,10 @@
     font-family: "Inter", serif;
     font-optical-sizing: auto;
     font-style: normal;
+}
+
+a {
+    text-decoration: none;
 }
 
 .font-weight-300 {
@@ -706,6 +714,16 @@
     background-color: var(--background_tertiary);
 }
 
+.background-image {
+    display: block;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
 .outline-top {
     box-shadow: 0 -1px 0 var(--outline);
 }
@@ -941,18 +959,58 @@
 
 .aspect-ratio-1-1 {
     aspect-ratio: 1 / 1;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .aspect-ratio-4-5 {
     aspect-ratio: 4 / 5;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .aspect-ratio-16-9 {
     aspect-ratio: 16 / 9;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .aspect-ratio-21-3 {
     aspect-ratio: 21 / 3;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.opacity-0 {
+    opacity: 0;
+}
+
+.opacity-25 {
+    opacity: 0.25;
+}
+
+.opacity-50 {
+    opacity: 0.5;
+}
+
+.opacity-75 {
+    opacity: 0.75;
+}
+
+.opacity-100 {
+    opacity: 1;
 }
 
 @media (max-width: 768px) {
@@ -1680,7 +1738,35 @@
         max-width: auto;
     }
 
-    a {
-        text-decoration: none;
+    .sm-aspect-ratio-1-1 {
+        aspect-ratio: 1 / 1;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .sm-aspect-ratio-4-5 {
+        aspect-ratio: 4 / 5;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .sm-aspect-ratio-16-9 {
+        aspect-ratio: 16 / 9;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .sm-aspect-ratio-21-3 {
+        aspect-ratio: 21 / 3;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }

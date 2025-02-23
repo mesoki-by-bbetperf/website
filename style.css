@@ -306,7 +306,8 @@ body {
 html {
     background-color: var(--background_secondary);
     font-size: clamp(14px, 1vw, 16px);
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease-in-out;
+    scroll-behavior: smooth;
 }
 
 h1,
@@ -375,7 +376,6 @@ svg.logo:hover {
 }
 
 .item {
-    height: fit-content;
     border-radius: var(--border-radius-lg);
     display: flex;
     flex-direction: column;
@@ -404,6 +404,7 @@ svg.logo:hover {
 }
 
 .item_content {
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -428,7 +429,7 @@ button {
     font-size: var(--font-size-xs);
     line-height: var(--line-height-sm);
     background-color: var(--color-white);
-    border-radius: var(--border-radius-md);
+    border-radius: var(--border-radius-rounded);
     display: inline-block;
     padding: var(--spacing-xs) var(--spacing-sm);
     margin: 0;
@@ -447,8 +448,20 @@ button:hover {
     background-color: var(--color-neutral-950);
     color: var(--text_primary_inverse);
     transition: ease .25s;
-    padding: var(--spacing-md) var(--spacing-md);
-    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-md) var(--spacing-lg);
+    border: none;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: var(--font-size-xs);
+    line-height: var(--line-height-sm);
+    border-radius: var(--border-radius-rounded);
+    display: inline-block;
+    margin: 0;
+    text-decoration: none;
+    cursor: pointer;
+    transition: ease .25s;
 }
 
 .primary-btn:hover {
@@ -459,7 +472,7 @@ button:hover {
 .active-filter {
     background-color: var(--color-neutral-200);
     color: var(--text_primary);
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease-in-out;
 }
 
 .active-filter:hover {
@@ -480,13 +493,48 @@ header {
     z-index: 1000;
 }
 
-.footer-link, a {
+.footer-link,
+a {
     text-decoration: none;
     color: var(--text_secondary);
-    transition: ease .25s;
+    transition: ease-in-out .25s;
 }
 
 .footer-link:hover {
     color: var(--text_primary);
-    transition: ease .25s;
+    transition: ease-in-out .25s;
+}
+
+/* Скрываем контент перед загрузкой */
+.fade-in {
+    opacity: 0;
+    transition: opacity 1.2s ease-in-out;
+}
+
+/* После загрузки контент становится видимым */
+.loaded .fade-in {
+    opacity: 1;
+}
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--background_primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 1;
+    transition: opacity 0.6s ease-in-out;
+    /* Плавное исчезновение */
+}
+
+/* Когда `#loader` должен исчезнуть */
+#loader.hidden {
+    opacity: 0;
+    pointer-events: none;
+    /* Чтобы убрать клики после исчезновения */
 }

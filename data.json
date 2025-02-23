@@ -1,8 +1,14 @@
 [
-  { "image": "testBlue.png", "title": "Ocean Breeze", "style": "Dot", "price": "19.99", "color": "Blue"},
-  { "image": "testBlue.png", "title": "Skyline Harmony", "style": "Line", "price": "29.99", "color": "Blue"},
-  { "image": "testBlue.png", "title": "Blue Horizon", "style": "Grid", "price": "39.99", "color": "Blue"},
-  { "image": "testRed.png", "title": "Crimson Dawn", "style": "Dot", "price": "19.99", "color": "Red"},
-  { "image": "testRed.png", "title": "Scarlet Symphony", "style": "Line", "price": "29.99", "color": "Red"},
-  { "image": "testRed.png", "title": "Red Mirage", "style": "Grid", "price": "39.99", "color": "Red"}
+  { "image": "testBlue.png", "title": "Ocean", "style": "Dot", "price": "19.99", "color": "Blue"},
+  { "image": "testBlue.png", "title": "Skyline", "style": "Line", "price": "29.99", "color": "Blue"},
+  { "image": "testBlue.png", "title": "Horizon", "style": "Grid", "price": "39.99", "color": "Blue"},
+  { "image": "testRed.png", "title": "Crimson", "style": "Dot", "price": "19.99", "color": "Red"},
+  { "image": "testRed.png", "title": "Symphony", "style": "Line", "price": "29.99", "color": "Red"},
+  { "image": "testRed.png", "title": "Mirage", "style": "Grid", "price": "39.99", "color": "Red"},
+  { "image": "testGreen.png", "title": "Forest", "style": "Dot", "price": "19.99", "color": "Green"},
+  { "image": "testGreen.png", "title": "Meadow", "style": "Line", "price": "29.99", "color": "Green"},
+  { "image": "testGreen.png", "title": "Valley", "style": "Grid", "price": "39.99", "color": "Green"},
+  { "image": "testYellow.png", "title": "Sunshine", "style": "Dot", "price": "19.99", "color": "Yellow"},
+  { "image": "testYellow.png", "title": "Dawn", "style": "Line", "price": "29.99", "color": "Yellow"},
+  { "image": "testYellow.png", "title": "Dusk", "style": "Grid", "price": "39.99", "color": "Yellow"}
 ]
