@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("data.json")
+    fetch("../data.json")
         .then(response => response.json())
         .then(data => {
             itemsData = data.map((item, index) => ({ ...item, id: index + 1 })); // Добавляем уникальный ID
@@ -25,7 +25,7 @@ function renderItems(items) {
         const itemElement = clone.querySelector(".item");
 
         itemElement.setAttribute("data-color", item.color.toLowerCase());
-        clone.querySelector("img").src = item.image;
+        clone.querySelector("img").src = item.frontImage;
         clone.querySelector("img").alt = item.title;
         clone.querySelector(".item_title").textContent = item.title;
         clone.querySelector(".item_style").textContent = item.style;
@@ -34,7 +34,7 @@ function renderItems(items) {
 
         // Открываем товар в новом окне
         itemElement.addEventListener("click", () => {
-            window.location.href = `product.html?id=${item.id}`;
+            window.location.href = `/product/product.html?id=${item.id}`;
         });
 
         grid.appendChild(clone);

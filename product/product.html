@@ -6,8 +6,9 @@
     <script src="/mover.js" defer></script>
     <script src="/fetch.js" defer></script>
     <script src="/filter.js" defer></script>
-    <script src="/header.js" defer></script>
-    <script src="/footer.js" defer></script>
+    <script src="/header/header.js" defer></script>
+    <script src="/footer/footer.js" defer></script>
+    <script src="/product/product.js" defer></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3C9TVSGN36"></script>
     <script>
@@ -20,11 +21,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Товар</title>
-    <script src="product.js" defer></script>
-    </style>
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/adaptive.css">
-    <link rel="stylesheet" href="/attributes.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/adaptive.css">
+    <link rel="stylesheet" href="/css/attributes.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -37,7 +36,8 @@
     <div id="header-container"></div>
     <div
         class="fade-in display-flex justify-content-center grid-cols-default padding-xxxl sm-padding-xl box-sizing-border-box background-color-primary outline-bottom">
-        <div class="fade-in display-flex flex-direction-column grid-cols-default gap-xxxl sm-gap-xl width-100 max-width-default ">
+        <div
+            class="fade-in display-flex flex-direction-column grid-cols-default gap-xxxl sm-gap-xl width-100 max-width-default ">
             <div class="fade-in display-grid flex-direction-column grid-cols-default sm-grid-cols-2 gap-md">
                 <div class="fade-in ">
                     <div class="fade-in background-color-secondary outline border-radius-lg position-sticky"
@@ -66,13 +66,17 @@
                             <h5 class="fade-in text-secondary font-weight-350"><span id="product-style"></span></h5>
                     </div>
                     <div class="fade-in display-flex flex-direction-column justify-content-start gap-sm">
-                        <h1 class="fade-in text-primary font-weight-500 text-align-right"><span id="product-price"></span></h6>
-                            <h5 class="fade-in text-secondary font-weight-350 text-align-right"><span id="product-color"></span>
+                        <h1 class="fade-in text-primary font-weight-500 text-align-right"><span
+                                id="product-price"></span></h6>
+                            <h5 class="fade-in text-secondary font-weight-350 text-align-right"><span
+                                    id="product-color"></span>
                             </h5>
                     </div>
                 </div>
-                <button class="fade-in primary-btn margin-top-xxxl sm-margin-top-xl" id="add-to-cart-btn">Buy on Amazon</button>
-                <h6 class="fade-in text-secondary font-weight-350 margin-top-xxxl sm-margin-top-xl">This notebook comes in a
+                <button class="fade-in primary-btn margin-top-xxxl sm-margin-top-xl" id="add-to-cart-btn">Buy on
+                    Amazon</button>
+                <h6 class="fade-in text-secondary font-weight-350 margin-top-xxxl sm-margin-top-xl">This notebook comes
+                    in a
                     variety of
                     vibrant colors,
                     perfect for adding a splash of personality to your note-taking. Whether you prefer bold and bright
@@ -81,33 +85,37 @@
             </div>
         </div>
     </div>
-    <section
-        class="fade-in display-flex justify-content-center margin-xxxl sm-margin-xl ">
-        <div class="fade-in display-grid max-width-default width-100 grid-cols-2 sm-grid-cols-1 outline border-radius-lg overflow-hidden background-color-primary">
+    <section class="fade-in display-flex justify-content-center margin-xxxl sm-margin-xl ">
+        <div
+            class="fade-in display-grid max-width-default width-100 grid-cols-2 sm-grid-cols-1 outline border-radius-lg overflow-hidden background-color-primary">
             <div
                 class="fade-in height-lg padding-xxxl sm-padding-xl display-flex flex-direction-column justify-content-space-between align-items-left gap-xxxl outline-bottom-and-right">
                 <h3 class="fade-in font-weight-500 text-align-left">Organize with Ease</h3>
-                <h6 class="fade-in text-tertiary font-weight-350">The multi-section design makes it easy to organize topics,
+                <h6 class="fade-in text-tertiary font-weight-350">The multi-section design makes it easy to organize
+                    topics,
                     projects,
                     or ideas. Don’t let your multitasking get out of hand, by keeping everything neatly in place.</h6>
             </div>
             <div
                 class="fade-in height-lg padding-xxxl sm-padding-xl display-flex flex-direction-column justify-content-space-between align-items-left gap-xxxl outline-bottom-and-right">
                 <h3 class="fade-in font-weight-500 text-align-left">Perfect Companion</h3>
-                <h6 class="fade-in text-tertiary font-weight-350">Match it with a colorful Mini Pen to add a touch of style and
+                <h6 class="fade-in text-tertiary font-weight-350">Match it with a colorful Mini Pen to add a touch of
+                    style and
                     functionality to your note-taking experience.</h6>
             </div>
             <div
                 class="fade-in height-lg padding-xxxl sm-padding-xl display-flex flex-direction-column justify-content-space-between align-items-left gap-xxxl outline-bottom-and-right">
                 <h3 class="fade-in font-weight-500 text-align-left">Organize with Ease</h3>
-                <h6 class="fade-in text-tertiary font-weight-350">The multi-section design makes it easy to organize topics,
+                <h6 class="fade-in text-tertiary font-weight-350">The multi-section design makes it easy to organize
+                    topics,
                     projects,
                     or ideas. Don’t let your multitasking get out of hand, by keeping everything neatly in place.</h6>
             </div>
             <div
                 class="fade-in height-lg padding-xxxl sm-padding-xl display-flex flex-direction-column justify-content-space-between align-items-left gap-xxxl">
                 <h3 class="fade-in font-weight-500 text-align-left">Perfect Companion</h3>
-                <h6 class="fade-in text-tertiary font-weight-350">Match it with a colorful Mini Pen to add a touch of style and
+                <h6 class="fade-in text-tertiary font-weight-350">Match it with a colorful Mini Pen to add a touch of
+                    style and
                     functionality to your note-taking experience.</h6>
             </div>
         </div>

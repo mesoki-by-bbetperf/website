@@ -7,8 +7,8 @@
     <script src="/mover.js" defer></script>
     <script src="/fetch.js" defer></script>
     <script src="/filter.js" defer></script>
-    <script src="/header.js" defer></script>
-    <script src="/footer.js" defer></script>
+    <script src="/header/header.js" defer></script>
+    <script src="/footer/footer.js" defer></script>
     <script src="/dataBackground.js" defer></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3C9TVSGN36"></script>
@@ -22,9 +22,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MESOKI</title>
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/adaptive.css">
-    <link rel="stylesheet" href="/attributes.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/adaptive.css">
+    <link rel="stylesheet" href="/css/attributes.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Google Font Inter Variable -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Google Font Inter Variable -->
     <link
@@ -36,18 +36,18 @@
     <div id="loader"></div>
     <div>
         <div id="header-container"></div>
-
         <section class="display-flex justify-content-center gap-lg padding-xxxl sm-padding-xl">
             <div class="display-flex max-width-default width-100 aspect-ratio-16-9 sm-aspect-ratio-1-1 box-sizing-border-box flex-direction-column justify-content-end align-items-start gap-xxxl padding-xxxl sm-padding-xl border-radius-lg outline"
-                data-bg="/testImage.png">
+                data-bg="media/other/testImage.png">
                 <div class="display-flex flex-direction-column align-items-start gap-sm">
                     <h1 class="text-primary font-weight-500 text-align-left">Tabbed</h1>
                     <h5 class="text-primary font-weight-350 text-align-left opacity-50">Multitasking marvel.</h5>
                 </div>
-                <a href="#target-element" class="fade-in primary-btn width-lg sm-width-100 box-sizing-border-box display-flex justify-content-center">Shop now</a>
+                <a href="#target-element"
+                    class="fade-in primary-btn width-lg sm-width-100 box-sizing-border-box display-flex justify-content-center">Shop
+                    now</a>
             </div>
         </section>
-
         <section id="target-element" data-scroll-target
             class="fade-in display-flex padding-xxxl sm-padding-xl outline-top-and-bottom background-color-primary justify-content-center">
             <div class="max-width-default width-100 display-flex flex-direction-column align-items-left gap-sm">
@@ -55,7 +55,6 @@
                 <h5 class="fade-in text-secondary font-weight-350">Browse our collection of shiny colors</h5>
             </div>
         </section>
-
         <section class="fade-in display-flex margin-xxxl sm-margin-xl justify-content-center">
             <div
                 class="fade-in max-width-default width-100 display-flex flex-direction-row align-items-left gap-md flex-wrap-wrap justify-content-between">
@@ -82,7 +81,6 @@
                 </div>
             </div>
         </section>
-
         <section class="fade-in display-flex padding-none margin-xxxl sm-margin-xl justify-content-center">
             <div class="fade-in display-flex max-width-default width-100 display-grid grid-cols-default sm-grid-cols-2 gap-md"
                 id="item_grid">

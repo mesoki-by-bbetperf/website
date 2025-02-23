@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
     }
 
-    fetch("data.json")
+    fetch("../data.json")
         .then(response => response.json())
         .then(data => {
             const product = data[productId - 1]; // Находим товар по ID
@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 return;
             }
 
-            document.getElementById("product-image-1").src = product.image;
-            document.getElementById("product-image-2").src = product.image;
-            document.getElementById("product-image-3").src = product.image;
+            document.getElementById("product-image-1").src = product.frontImage;
+            document.getElementById("product-image-2").src = product.insideImage;
+            document.getElementById("product-image-3").src = product.backImage;
             document.getElementById("product-title").textContent = product.title;
             document.getElementById("product-style").textContent = product.style;
             document.getElementById("product-price").textContent = `$${parseFloat(product.price).toFixed(2)}`;

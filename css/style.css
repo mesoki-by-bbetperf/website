@@ -385,8 +385,10 @@ svg.logo {
     transition: ease .25s;
 }
 
-svg.logo:hover {
-    fill: var(--color-neutral-600);
+@media screen and (min-width: 768px) {
+    svg.logo:hover {
+        fill: var(--color-neutral-600);
+    }
 }
 
 .item {
@@ -398,14 +400,16 @@ svg.logo:hover {
     transition: ease .25s;
 }
 
-.item:hover {
-    cursor: pointer !important;
-    transition: ease .25s;
-}
+@media screen and (min-width: 768px) {
+    .item:hover {
+        cursor: pointer !important;
+        transition: ease .25s;
+    }
 
-.item:hover .item_image {
-    background-color: var(--color-neutral-100);
-    transition: ease .25s;
+    .item:hover .item_image {
+        background-color: var(--color-neutral-100);
+        transition: ease .25s;
+    }
 }
 
 .item_image {
@@ -453,9 +457,11 @@ button {
     transition: ease .25s;
 }
 
-button:hover {
-    transition: ease .25s;
-    background-color: var(--color-neutral-100);
+@media screen and (min-width: 768px) {
+    button:hover {
+        transition: ease .25s;
+        background-color: var(--color-neutral-100);
+    }
 }
 
 .primary-btn {
@@ -478,9 +484,11 @@ button:hover {
     transition: ease .25s;
 }
 
-.primary-btn:hover {
-    background-color: var(--color-neutral-600);
-    transition: ease .25s;
+@media screen and (min-width: 768px) {
+    .primary-btn:hover {
+        background-color: var(--color-neutral-600);
+        transition: ease .25s;
+    }
 }
 
 /* Дефолтный стиль кнопок */
@@ -505,10 +513,12 @@ button:hover {
     color: var(--text-primary-inverse);
 }
 
-/* Эффект hover */
-.filter-btn.active-filter:hover,
-.color-filter-btn.active-filter:hover {
-    opacity: 0.8;
+@media screen and (min-width: 768px) {
+
+    .filter-btn.active-filter:hover,
+    .color-filter-btn.active-filter:hover {
+        opacity: 0.8;
+    }
 }
 
 .product-image {
@@ -532,9 +542,11 @@ a {
     transition: ease-in-out .25s;
 }
 
-.footer-link:hover {
-    color: var(--text_primary);
-    transition: ease-in-out .25s;
+@media screen and (min-width: 768px) {
+    .footer-link:hover {
+        color: var(--text_primary);
+        transition: ease-in-out .25s;
+    }
 }
 
 /* Скрываем контент перед загрузкой */
