@@ -303,6 +303,13 @@
     --height-xl: 24rem;
     --height-xxl: 32rem;
     --height-xxxl: 48rem;
+    --width-xs: 2rem;
+    --width-sm: 4rem;
+    --width-md: 8rem;
+    --width-lg: 16rem;
+    --width-xl: 24rem;
+    --width-xxl: 32rem;
+    --width-xxxl: 48rem;
 }
 
 body {
@@ -438,7 +445,7 @@ button {
     background-color: var(--color-white);
     border-radius: var(--border-radius-rounded);
     display: inline-block;
-    padding: var(--spacing-xs) var(--spacing-sm);
+    padding: var(--spacing-sm) var(--spacing-xl);
     margin: 0;
     color: var(--text_primary);
     text-decoration: none;
@@ -455,7 +462,7 @@ button:hover {
     background-color: var(--color-neutral-950);
     color: var(--text_primary_inverse);
     transition: ease .25s;
-    padding: var(--spacing-xs) var(--spacing-sm);
+    padding: var(--spacing-sm) var(--spacing-xl);
     border: none;
     font-family: "Inter", serif;
     font-optical-sizing: auto;

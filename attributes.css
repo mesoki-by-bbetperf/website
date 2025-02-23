@@ -788,6 +788,34 @@ a {
     width: 25%;
 }
 
+.width-xs {
+    width: var(--width-xs);
+}
+
+.width-sm {
+    width: var(--width-sm);
+}
+
+.width-md {
+    width: var(--width-md);
+}
+
+.width-lg {
+    width: var(--width-lg);
+}
+
+.width-xl {
+    width: var(--width-xl);
+}
+
+.width-xxl {
+    width: var(--width-xxl);
+}
+
+.width-xxxl {
+    width: var(--width-xxxl);
+}
+
 .width-auto {
     width: auto;
 }
