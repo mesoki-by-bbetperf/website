@@ -367,14 +367,6 @@ svg.logo:hover {
     fill: var(--color-neutral-600);
 }
 
-.item_grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-    gap: var(--spacing-md);
-    padding: 0;
-    margin: 0;
-}
-
 .item {
     border-radius: var(--border-radius-lg);
     display: flex;
@@ -464,12 +456,6 @@ button:hover {
 
 .active-filter:hover {
     background-color: var(--color-neutral-300);
-}
-
-.product-container {
-    grid-template-columns: 1fr 2fr;
-    padding: 0;
-    margin: 0;
 }
 
 .product-image {

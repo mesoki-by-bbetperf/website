@@ -17,9 +17,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 return;
             }
 
-            document.getElementById("product-image").src = product.image;
+            document.getElementById("product-image-1").src = product.image;
+            document.getElementById("product-image-2").src = product.image;
+            document.getElementById("product-image-3").src = product.image;
             document.getElementById("product-title").textContent = product.title;
-            document.getElementById("product-image").alt = product.title;
             document.getElementById("product-style").textContent = product.style;
             document.getElementById("product-price").textContent = `$${parseFloat(product.price).toFixed(2)}`;
             document.getElementById("product-color").textContent = product.color;

@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function renderItems(items) {
-    const grid = document.querySelector(".item_grid");
+    const grid = document.getElementById("item_grid");
     const template = document.getElementById("item_template");
 
     if (!template) {
