@@ -455,7 +455,7 @@ button:hover {
     background-color: var(--color-neutral-950);
     color: var(--text_primary_inverse);
     transition: ease .25s;
-    padding: var(--spacing-md) var(--spacing-lg);
+    padding: var(--spacing-xs) var(--spacing-sm);
     border: none;
     font-family: "Inter", serif;
     font-optical-sizing: auto;
@@ -476,22 +476,30 @@ button:hover {
     transition: ease .25s;
 }
 
-.filter-btn.active-filter {
-    background-color: var(--color-brand-blue);
-    color: var(--text_primary_inverse);
-    transition: opacity 0.3s ease;
+/* Дефолтный стиль кнопок */
+.filter-btn,
+.color-filter-btn {
+    background-color: var(--background-primary);
+    color: var(--text-primary-inverse);
+    transition: background-color 0.3s ease, opacity 0.3s ease;
 }
 
-.filter-btn.active-filter:hover {
-    opacity: 0.8;
-}
-
+/* Активная кнопка цвета */
 .color-filter-btn.active-filter {
     background-color: var(--color-brand-red);
-    color: var(--text_primary_inverse);
-    transition: opacity 0.3s ease;
+    /* JS изменит это */
+    color: var(--text-primary-inverse);
 }
 
+/* Активная кнопка Layout */
+.filter-btn.active-filter {
+    background-color: var(--color-brand-blue);
+    /* JS изменит это */
+    color: var(--text-primary-inverse);
+}
+
+/* Эффект hover */
+.filter-btn.active-filter:hover,
 .color-filter-btn.active-filter:hover {
     opacity: 0.8;
 }
