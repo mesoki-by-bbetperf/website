@@ -1041,6 +1041,22 @@ a {
     opacity: 1 !important;
 }
 
+.z-index-0 {
+    z-index: 0;
+}
+
+.z-index-1 {
+    z-index: 1;
+}
+
+.z-index-2 {
+    z-index: 2;
+}
+
+.z-index-3 {
+    z-index: 3;
+}
+
 @media (max-width: 768px) {
     .sm-text-align-center {
         text-align: center;

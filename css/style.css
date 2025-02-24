@@ -389,25 +389,14 @@ svg.logo {
     svg.logo:hover {
         fill: var(--color-neutral-600);
     }
-}
 
-.item {
-    border-radius: var(--border-radius-lg);
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 0 0 1px var(--outline);
-    overflow: hidden;
-    transition: ease 0.3s;
-}
-
-@media screen and (min-width: 768px) {
     .item:hover {
         cursor: pointer !important;
         transition: ease 0.3s;
     }
 
     .item_image:hover {
-        background-color: var(--background_tertiary);
+        background-color: var(--color-gray-100);
         transition: ease 0.3s;
     }
 
@@ -430,6 +419,20 @@ svg.logo {
     .right {
         left: 66.66%;
     }
+
+    .footer-link:hover {
+        color: var(--text_primary);
+        transition: ease 0.3s;
+    }
+}
+
+.item {
+    border-radius: var(--border-radius-lg);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 0 1px var(--outline);
+    overflow: hidden;
+    transition: ease 0.3s;
 }
 
 .item_image {
@@ -477,20 +480,13 @@ button {
     color: var(--text_primary);
     text-decoration: none;
     cursor: pointer;
-    transition: ease .25s;
-}
-
-@media screen and (min-width: 768px) {
-    button:hover {
-        transition: ease .25s;
-        background-color: var(--color-neutral-100);
-    }
+    transition: ease 0.3s;
 }
 
 .primary-btn {
     background-color: var(--color-neutral-950);
     color: var(--text_primary_inverse);
-    transition: ease .25s;
+    transition: ease 0.3s;
     padding: var(--spacing-sm) var(--spacing-sm);
     border: none;
     font-family: "Inter", serif;
@@ -504,50 +500,13 @@ button {
     margin: 0;
     text-decoration: none;
     cursor: pointer;
-    transition: ease .25s;
-}
-
-@media screen and (min-width: 768px) {
-    .primary-btn:hover {
-        background-color: var(--color-neutral-600);
-        transition: ease .25s;
-    }
-}
-
-/* Дефолтный стиль кнопок */
-.filter-btn,
-.color-filter-btn {
-    background-color: var(--background-primary);
-    color: var(--text-primary-inverse);
-    transition: background-color 0.3s ease, opacity 0.3s ease;
-}
-
-/* Активная кнопка цвета */
-.color-filter-btn.active-filter {
-    background-color: var(--color-brand-red);
-    /* JS изменит это */
-    color: var(--text-primary-inverse);
-}
-
-/* Активная кнопка Layout */
-.filter-btn.active-filter {
-    background-color: var(--color-brand-blue);
-    /* JS изменит это */
-    color: var(--text-primary-inverse);
-}
-
-@media screen and (min-width: 768px) {
-
-    .filter-btn.active-filter:hover,
-    .color-filter-btn.active-filter:hover {
-        opacity: 0.8;
-    }
+    transition: ease 0.3s;
 }
 
 .product-image {
     display: block;
     height: auto;
-    transition: ease .25s;
+    transition: ease 0.3s;
 }
 
 header {
@@ -565,20 +524,11 @@ a {
     transition: ease 0.3s;
 }
 
-@media screen and (min-width: 768px) {
-    .footer-link:hover {
-        color: var(--text_primary);
-        transition: ease 0.3s;
-    }
-}
-
-/* Скрываем контент перед загрузкой */
 .fade-in {
     opacity: 0;
     transition: opacity 1.2s ease;
 }
 
-/* После загрузки контент становится видимым */
 .loaded .fade-in {
     opacity: 1;
 }
@@ -596,12 +546,21 @@ a {
     z-index: 9999;
     opacity: 1;
     transition: opacity 0.6s ease;
-    /* Плавное исчезновение */
 }
 
-/* Когда `#loader` должен исчезнуть */
 #loader.hidden {
     opacity: 0;
     pointer-events: none;
-    /* Чтобы убрать клики после исчезновения */
+}
+
+.fade-in-bottom {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    transition: bottom 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+.fade-in-bottom.visible {
+    bottom: 0;
 }

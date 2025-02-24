@@ -32,6 +32,8 @@ function renderItems(items) {
         clone.querySelector(".item_style").textContent = item.style;
         clone.querySelector(".item_price").textContent = `$${parseFloat(item.price).toFixed(2)}`;
         clone.querySelector(".item_color").textContent = item.color;
+        clone.querySelector(".item_pages").textContent = item.pages;
+        clone.querySelector(".item_size").textContent = item.size;
 
         // **Получаем зоны наведения**
         const hoverLeft = clone.querySelector(".image-hover-zone.left");
