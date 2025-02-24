@@ -60,17 +60,16 @@
             </div>
             <div class="fade-in display-flex flex-direction-column align-self-stretch">
                 <div class="fade-in display-flex flex-direction-row justify-content-space-between">
-                    <div class="fade-in display-flex flex-direction-column justify-content-start gap-sm">
-                        <h1 class="fade-in text-primary font-weight-500" id="product-title">
-                            </h6>
-                            <h5 class="fade-in text-secondary font-weight-350"><span id="product-style"></span></h5>
+                    <div class="fade-in display-flex flex-direction-column justify-content-start gap-xs">
+                        <h5 class="fade-in text-primary font-weight-500" id="product-title"></h5>
+                        <h5 class="fade-in text-secondary font-weight-350"><span id="product-style"></span></h5>
                     </div>
-                    <div class="fade-in display-flex flex-direction-column justify-content-start gap-sm">
-                        <h1 class="fade-in text-primary font-weight-500 text-align-right"><span
-                                id="product-price"></span></h6>
-                            <h5 class="fade-in text-secondary font-weight-350 text-align-right"><span
-                                    id="product-color"></span>
-                            </h5>
+                    <div class="fade-in display-flex flex-direction-column justify-content-start gap-xs">
+                        <h5 class="fade-in text-primary font-weight-500 text-align-right"><span
+                                id="product-price"></span></h5>
+                        <h5 class="fade-in text-secondary font-weight-350 text-align-right"><span
+                                id="product-color"></span>
+                        </h5>
                     </div>
                 </div>
                 <button class="fade-in primary-btn margin-top-xxxl sm-margin-top-xl" id="add-to-cart-btn">Buy on
@@ -136,8 +135,10 @@
     </section>
     <template id="item_template">
         <div class="fade-in item" data-color="">
-            <div class="fade-in item_image">
-                <img src="" alt="">
+            <div class="fade-in item_image outline-bottom">
+                <div class="fade-in image-hover-zone left"></div>
+                <div class="fade-in image-hover-zone center"></div>
+                <div class="fade-in image-hover-zone right"></div>
             </div>
             <div class="fade-in item_content">
                 <div class="fade-in display-flex flex-direction-column justify-content-between gap-xxs">

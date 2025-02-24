@@ -246,7 +246,7 @@
     --color-brand-yellow: #FFD400;
     --color-brand-blue: #0080FF;
     --color-brand-orange: #FF6A00;
-    --color-brand-green: #00B300;
+    --color-brand-green: #48D900;
     --color-brand-red: #FF1A40;
     --color-brand-purple: #A000FF;
     --color-brand-pink: #FF00A0;
@@ -382,7 +382,7 @@ svg.logo {
     margin: 0;
     padding: 0;
     fill: var(--color-neutral-950);
-    transition: ease .25s;
+    transition: ease 0.3s;
 }
 
 @media screen and (min-width: 768px) {
@@ -397,28 +397,52 @@ svg.logo {
     flex-direction: column;
     box-shadow: 0 0 0 1px var(--outline);
     overflow: hidden;
-    transition: ease .25s;
+    transition: ease 0.3s;
 }
 
 @media screen and (min-width: 768px) {
     .item:hover {
         cursor: pointer !important;
-        transition: ease .25s;
+        transition: ease 0.3s;
     }
 
-    .item:hover .item_image {
-        background-color: var(--color-neutral-100);
-        transition: ease .25s;
+    .item_image:hover {
+        background-color: var(--background_tertiary);
+        transition: ease 0.3s;
+    }
+
+    .image-hover-zone {
+        position: absolute;
+        top: 0;
+        width: 33.33%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+    .left {
+        left: 0;
+    }
+
+    .center {
+        left: 33.33%;
+    }
+
+    .right {
+        left: 66.66%;
     }
 }
 
 .item_image {
     display: block;
+    aspect-ratio: 4/5;
+    position: relative;
     width: 100%;
     height: auto;
-    aspect-ratio: 4/5;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: var(--background_primary);
-    transition: ease .25s;
+    display: flex;
 }
 
 .item_content {
@@ -428,7 +452,6 @@ svg.logo {
     justify-content: space-between;
     padding: var(--spacing-md);
     background-color: var(--background_primary);
-    box-shadow: 0 -1px 0 var(--outline);
 }
 
 img {
@@ -539,20 +562,20 @@ header {
 a {
     text-decoration: none;
     color: var(--text_secondary);
-    transition: ease-in-out .25s;
+    transition: ease 0.3s;
 }
 
 @media screen and (min-width: 768px) {
     .footer-link:hover {
         color: var(--text_primary);
-        transition: ease-in-out .25s;
+        transition: ease 0.3s;
     }
 }
 
 /* Скрываем контент перед загрузкой */
 .fade-in {
     opacity: 0;
-    transition: opacity 1.2s ease-in-out;
+    transition: opacity 1.2s ease;
 }
 
 /* После загрузки контент становится видимым */
@@ -572,7 +595,7 @@ a {
     align-items: center;
     z-index: 9999;
     opacity: 1;
-    transition: opacity 0.6s ease-in-out;
+    transition: opacity 0.6s ease;
     /* Плавное исчезновение */
 }
 

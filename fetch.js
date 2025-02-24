@@ -23,16 +23,41 @@ function renderItems(items) {
     items.forEach((item) => {
         const clone = template.content.cloneNode(true);
         const itemElement = clone.querySelector(".item");
+        const imageContainer = clone.querySelector(".item_image");
 
         itemElement.setAttribute("data-color", item.color.toLowerCase());
-        clone.querySelector("img").src = item.frontImage;
-        clone.querySelector("img").alt = item.title;
+        imageContainer.style.backgroundImage = `url(${item.frontImage})`; // Дефолтное изображение (передняя сторона)
+
         clone.querySelector(".item_title").textContent = item.title;
         clone.querySelector(".item_style").textContent = item.style;
         clone.querySelector(".item_price").textContent = `$${parseFloat(item.price).toFixed(2)}`;
         clone.querySelector(".item_color").textContent = item.color;
 
-        // Открываем товар в новом окне
+        // **Получаем зоны наведения**
+        const hoverLeft = clone.querySelector(".image-hover-zone.left");
+        const hoverCenter = clone.querySelector(".image-hover-zone.center");
+        const hoverRight = clone.querySelector(".image-hover-zone.right");
+
+        // **Добавляем события наведения**
+        hoverLeft.addEventListener("mouseenter", () => {
+            imageContainer.style.backgroundImage = `url(${item.frontImage})`; // Внешняя сторона
+        });
+
+        // **Добавляем события наведения**
+        hoverCenter.addEventListener("mouseenter", () => {
+            imageContainer.style.backgroundImage = `url(${item.insideImage})`; // Внутренняя сторона
+        });
+
+        hoverRight.addEventListener("mouseenter", () => {
+            imageContainer.style.backgroundImage = `url(${item.backImage})`; // Задняя сторона
+        });
+
+        // **При уходе мыши возвращаем стандартное изображение**
+        imageContainer.addEventListener("mouseleave", () => {
+            imageContainer.style.backgroundImage = `url(${item.frontImage})`;
+        });
+
+        // **Открываем товар в новом окне**
         itemElement.addEventListener("click", () => {
             window.location.href = `/product/product.html?id=${item.id}`;
         });

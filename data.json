@@ -2,13 +2,20 @@
   { "frontImage": "/media/color/blue/front.png", "insideImage": "/media/layout/dot/dot.png", "backImage": "/media/color/blue/back.png", "title": "Ocean", "style": "Dot", "price": "19.99", "color": "Blue"},
   { "frontImage": "/media/color/blue/front.png", "insideImage": "/media/layout/line/line.png", "backImage": "/media/color/blue/back.png", "title": "Skyline", "style": "Line", "price": "29.99", "color": "Blue"},
   { "frontImage": "/media/color/blue/front.png", "insideImage": "/media/layout/grid/grid.png", "backImage": "/media/color/blue/back.png", "title": "Horizon", "style": "Grid", "price": "39.99", "color": "Blue"},
+  { "frontImage": "/media/color/blue/front.png", "insideImage": "/media/layout/frame/frame.png", "backImage": "/media/color/blue/back.png", "title": "Azure", "style": "Frame", "price": "49.99", "color": "Blue"},
+  
   { "frontImage": "/media/color/red/front.png", "insideImage": "/media/layout/dot/dot.png", "backImage": "/media/color/red/back.png", "title": "Crimson", "style": "Dot", "price": "19.99", "color": "Red"},
   { "frontImage": "/media/color/red/front.png", "insideImage": "/media/layout/line/line.png", "backImage": "/media/color/red/back.png", "title": "Symphony", "style": "Line", "price": "29.99", "color": "Red"},
   { "frontImage": "/media/color/red/front.png", "insideImage": "/media/layout/grid/grid.png", "backImage": "/media/color/red/back.png", "title": "Mirage", "style": "Grid", "price": "39.99", "color": "Red"},
+  { "frontImage": "/media/color/red/front.png", "insideImage": "/media/layout/frame/frame.png", "backImage": "/media/color/red/back.png", "title": "Ruby", "style": "Frame", "price": "49.99", "color": "Red"},
+  
   { "frontImage": "/media/color/green/front.png", "insideImage": "/media/layout/dot/dot.png", "backImage": "/media/color/green/back.png", "title": "Forest", "style": "Dot", "price": "19.99", "color": "Green"},
   { "frontImage": "/media/color/green/front.png", "insideImage": "/media/layout/line/line.png", "backImage": "/media/color/green/back.png", "title": "Meadow", "style": "Line", "price": "29.99", "color": "Green"},
   { "frontImage": "/media/color/green/front.png", "insideImage": "/media/layout/grid/grid.png", "backImage": "/media/color/green/back.png", "title": "Valley", "style": "Grid", "price": "39.99", "color": "Green"},
+  { "frontImage": "/media/color/green/front.png", "insideImage": "/media/layout/frame/frame.png", "backImage": "/media/color/green/back.png", "title": "Emerald", "style": "Frame", "price": "49.99", "color": "Green"},
+  
   { "frontImage": "/media/color/yellow/front.png", "insideImage": "/media/layout/dot/dot.png", "backImage": "/media/color/yellow/back.png", "title": "Sunshine", "style": "Dot", "price": "19.99", "color": "Yellow"},
   { "frontImage": "/media/color/yellow/front.png", "insideImage": "/media/layout/line/line.png", "backImage": "/media/color/yellow/back.png", "title": "Dawn", "style": "Line", "price": "29.99", "color": "Yellow"},
-  { "frontImage": "/media/color/yellow/front.png", "insideImage": "/media/layout/grid/grid.png", "backImage": "/media/color/yellow/back.png", "title": "Dusk", "style": "Grid", "price": "39.99", "color": "Yellow"}
+  { "frontImage": "/media/color/yellow/front.png", "insideImage": "/media/layout/grid/grid.png", "backImage": "/media/color/yellow/back.png", "title": "Dusk", "style": "Grid", "price": "39.99", "color": "Yellow"},
+  { "frontImage": "/media/color/yellow/front.png", "insideImage": "/media/layout/frame/frame.png", "backImage": "/media/color/yellow/back.png", "title": "Golden", "style": "Frame", "price": "49.99", "color": "Yellow"}
 ]
