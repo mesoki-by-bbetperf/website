@@ -6,7 +6,7 @@
         "style": "Dot",
         "title": "Blue Dot",
         "price": "19.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.apple.com/",
         "frontImage": "/media/color/blue/front.png",
         "insideImage": "/media/layout/dot/dot.png",
         "backImage": "/media/color/blue/back.png"
