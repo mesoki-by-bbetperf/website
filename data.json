@@ -1,5 +1,6 @@
 [
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "5 x 8",
         "pages": "64",
@@ -12,6 +13,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "5 x 8",
         "pages": "64",
@@ -24,6 +26,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "5 x 8",
         "pages": "64",
@@ -36,6 +39,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "5 x 8",
         "pages": "64",
@@ -48,6 +52,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "5 x 8",
         "pages": "120",
@@ -60,6 +65,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "5 x 8",
         "pages": "120",
@@ -72,6 +78,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "5 x 8",
         "pages": "120",
@@ -84,6 +91,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "5 x 8",
         "pages": "120",
@@ -96,6 +104,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "5 x 8",
         "pages": "192",
@@ -108,6 +117,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "5 x 8",
         "pages": "192",
@@ -120,6 +130,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "5 x 8",
         "pages": "192",
@@ -132,6 +143,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "5 x 8",
         "pages": "192",
@@ -144,6 +156,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "5 x 8",
         "pages": "240",
@@ -156,6 +169,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "5 x 8",
         "pages": "240",
@@ -168,6 +182,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "5 x 8",
         "pages": "240",
@@ -180,6 +195,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "5 x 8",
         "pages": "240",
@@ -192,6 +208,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "6 x 9",
         "pages": "64",
@@ -204,6 +221,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "6 x 9",
         "pages": "64",
@@ -216,6 +234,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "6 x 9",
         "pages": "64",
@@ -228,6 +247,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "6 x 9",
         "pages": "64",
@@ -240,6 +260,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "6 x 9",
         "pages": "120",
@@ -252,6 +273,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "6 x 9",
         "pages": "120",
@@ -264,6 +286,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "6 x 9",
         "pages": "120",
@@ -276,6 +299,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "6 x 9",
         "pages": "120",
@@ -288,6 +312,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "6 x 9",
         "pages": "192",
@@ -300,6 +325,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "6 x 9",
         "pages": "192",
@@ -312,6 +338,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "6 x 9",
         "pages": "192",
@@ -324,6 +351,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "6 x 9",
         "pages": "192",
@@ -336,6 +364,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "6 x 9",
         "pages": "240",
@@ -348,6 +377,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "6 x 9",
         "pages": "240",
@@ -360,6 +390,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "6 x 9",
         "pages": "240",
@@ -372,6 +403,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "6 x 9",
         "pages": "240",
@@ -384,6 +416,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "7 x 10",
         "pages": "64",
@@ -396,6 +429,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "7 x 10",
         "pages": "64",
@@ -408,6 +442,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "7 x 10",
         "pages": "64",
@@ -420,6 +455,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "7 x 10",
         "pages": "64",
@@ -432,6 +468,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "7 x 10",
         "pages": "120",
@@ -444,6 +481,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "7 x 10",
         "pages": "120",
@@ -456,6 +494,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "7 x 10",
         "pages": "120",
@@ -468,6 +507,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "7 x 10",
         "pages": "120",
@@ -480,6 +520,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "7 x 10",
         "pages": "192",
@@ -492,6 +533,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "7 x 10",
         "pages": "192",
@@ -504,6 +546,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "7 x 10",
         "pages": "192",
@@ -516,6 +559,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "7 x 10",
         "pages": "192",
@@ -528,6 +572,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "7 x 10",
         "pages": "240",
@@ -540,6 +585,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "7 x 10",
         "pages": "240",
@@ -552,6 +598,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "7 x 10",
         "pages": "240",
@@ -564,6 +611,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "7 x 10",
         "pages": "240",
@@ -576,6 +624,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "8 x 11",
         "pages": "64",
@@ -588,6 +637,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "8 x 11",
         "pages": "64",
@@ -600,6 +650,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "8 x 11",
         "pages": "64",
@@ -612,6 +663,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "8 x 11",
         "pages": "64",
@@ -624,6 +676,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "8 x 11",
         "pages": "120",
@@ -636,6 +689,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "8 x 11",
         "pages": "120",
@@ -648,6 +702,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "8 x 11",
         "pages": "120",
@@ -660,6 +715,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "8 x 11",
         "pages": "120",
@@ -672,6 +728,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "8 x 11",
         "pages": "192",
@@ -684,6 +741,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "8 x 11",
         "pages": "192",
@@ -696,6 +754,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "8 x 11",
         "pages": "192",
@@ -708,6 +767,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "8 x 11",
         "pages": "192",
@@ -720,6 +780,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "8 x 11",
         "pages": "240",
@@ -732,6 +793,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "8 x 11",
         "pages": "240",
@@ -744,6 +806,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "8 x 11",
         "pages": "240",
@@ -756,6 +819,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Blue",
         "size": "8 x 11",
         "pages": "240",
@@ -768,6 +832,7 @@
         "backImage": "/media/color/blue/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "5 x 8",
         "pages": "64",
@@ -780,6 +845,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "5 x 8",
         "pages": "64",
@@ -792,6 +858,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "5 x 8",
         "pages": "64",
@@ -804,6 +871,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "5 x 8",
         "pages": "64",
@@ -816,6 +884,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "5 x 8",
         "pages": "120",
@@ -828,6 +897,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "5 x 8",
         "pages": "120",
@@ -840,6 +910,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "5 x 8",
         "pages": "120",
@@ -852,6 +923,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "5 x 8",
         "pages": "120",
@@ -864,6 +936,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "5 x 8",
         "pages": "192",
@@ -876,6 +949,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "5 x 8",
         "pages": "192",
@@ -888,6 +962,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "5 x 8",
         "pages": "192",
@@ -900,6 +975,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "5 x 8",
         "pages": "192",
@@ -912,6 +988,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "5 x 8",
         "pages": "240",
@@ -924,6 +1001,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "5 x 8",
         "pages": "240",
@@ -936,6 +1014,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "5 x 8",
         "pages": "240",
@@ -948,6 +1027,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "5 x 8",
         "pages": "240",
@@ -960,6 +1040,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "6 x 9",
         "pages": "64",
@@ -972,6 +1053,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "6 x 9",
         "pages": "64",
@@ -984,6 +1066,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "6 x 9",
         "pages": "64",
@@ -996,6 +1079,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "6 x 9",
         "pages": "64",
@@ -1008,6 +1092,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "6 x 9",
         "pages": "120",
@@ -1020,6 +1105,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "6 x 9",
         "pages": "120",
@@ -1032,6 +1118,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "6 x 9",
         "pages": "120",
@@ -1044,6 +1131,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "6 x 9",
         "pages": "120",
@@ -1056,6 +1144,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "6 x 9",
         "pages": "192",
@@ -1068,6 +1157,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "6 x 9",
         "pages": "192",
@@ -1080,6 +1170,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "6 x 9",
         "pages": "192",
@@ -1092,6 +1183,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "6 x 9",
         "pages": "192",
@@ -1104,6 +1196,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "6 x 9",
         "pages": "240",
@@ -1116,6 +1209,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "6 x 9",
         "pages": "240",
@@ -1128,6 +1222,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "6 x 9",
         "pages": "240",
@@ -1140,6 +1235,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "6 x 9",
         "pages": "240",
@@ -1152,6 +1248,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "7 x 10",
         "pages": "64",
@@ -1164,6 +1261,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "7 x 10",
         "pages": "64",
@@ -1176,6 +1274,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "7 x 10",
         "pages": "64",
@@ -1188,6 +1287,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "7 x 10",
         "pages": "64",
@@ -1200,6 +1300,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "7 x 10",
         "pages": "120",
@@ -1212,6 +1313,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "7 x 10",
         "pages": "120",
@@ -1224,6 +1326,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "7 x 10",
         "pages": "120",
@@ -1236,6 +1339,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "7 x 10",
         "pages": "120",
@@ -1248,6 +1352,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "7 x 10",
         "pages": "192",
@@ -1260,6 +1365,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "7 x 10",
         "pages": "192",
@@ -1272,6 +1378,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "7 x 10",
         "pages": "192",
@@ -1284,6 +1391,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "7 x 10",
         "pages": "192",
@@ -1296,6 +1404,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "7 x 10",
         "pages": "240",
@@ -1308,6 +1417,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "7 x 10",
         "pages": "240",
@@ -1320,6 +1430,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "7 x 10",
         "pages": "240",
@@ -1332,6 +1443,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "7 x 10",
         "pages": "240",
@@ -1344,6 +1456,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "8 x 11",
         "pages": "64",
@@ -1356,6 +1469,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "8 x 11",
         "pages": "64",
@@ -1368,6 +1482,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "8 x 11",
         "pages": "64",
@@ -1380,6 +1495,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "8 x 11",
         "pages": "64",
@@ -1392,6 +1508,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "8 x 11",
         "pages": "120",
@@ -1404,6 +1521,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "8 x 11",
         "pages": "120",
@@ -1416,6 +1534,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "8 x 11",
         "pages": "120",
@@ -1428,6 +1547,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "8 x 11",
         "pages": "120",
@@ -1440,6 +1560,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "8 x 11",
         "pages": "192",
@@ -1452,6 +1573,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "8 x 11",
         "pages": "192",
@@ -1464,6 +1586,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "8 x 11",
         "pages": "192",
@@ -1476,6 +1599,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "8 x 11",
         "pages": "192",
@@ -1488,6 +1612,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "8 x 11",
         "pages": "240",
@@ -1500,6 +1625,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "8 x 11",
         "pages": "240",
@@ -1512,6 +1638,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "8 x 11",
         "pages": "240",
@@ -1524,6 +1651,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Red",
         "size": "8 x 11",
         "pages": "240",
@@ -1536,6 +1664,7 @@
         "backImage": "/media/color/red/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "5 x 8",
         "pages": "64",
@@ -1548,6 +1677,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "5 x 8",
         "pages": "64",
@@ -1560,6 +1690,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "5 x 8",
         "pages": "64",
@@ -1572,6 +1703,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "5 x 8",
         "pages": "64",
@@ -1584,6 +1716,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "5 x 8",
         "pages": "120",
@@ -1596,6 +1729,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "5 x 8",
         "pages": "120",
@@ -1608,6 +1742,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "5 x 8",
         "pages": "120",
@@ -1620,6 +1755,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "5 x 8",
         "pages": "120",
@@ -1632,6 +1768,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "5 x 8",
         "pages": "192",
@@ -1644,6 +1781,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "5 x 8",
         "pages": "192",
@@ -1656,6 +1794,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "5 x 8",
         "pages": "192",
@@ -1668,6 +1807,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "5 x 8",
         "pages": "192",
@@ -1680,6 +1820,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "5 x 8",
         "pages": "240",
@@ -1692,6 +1833,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "5 x 8",
         "pages": "240",
@@ -1704,6 +1846,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "5 x 8",
         "pages": "240",
@@ -1716,6 +1859,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "5 x 8",
         "pages": "240",
@@ -1728,6 +1872,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "6 x 9",
         "pages": "64",
@@ -1740,6 +1885,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "6 x 9",
         "pages": "64",
@@ -1752,6 +1898,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "6 x 9",
         "pages": "64",
@@ -1764,6 +1911,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "6 x 9",
         "pages": "64",
@@ -1776,6 +1924,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "6 x 9",
         "pages": "120",
@@ -1788,6 +1937,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "6 x 9",
         "pages": "120",
@@ -1800,6 +1950,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "6 x 9",
         "pages": "120",
@@ -1812,6 +1963,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "6 x 9",
         "pages": "120",
@@ -1824,6 +1976,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "6 x 9",
         "pages": "192",
@@ -1836,6 +1989,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "6 x 9",
         "pages": "192",
@@ -1848,6 +2002,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "6 x 9",
         "pages": "192",
@@ -1860,6 +2015,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "6 x 9",
         "pages": "192",
@@ -1872,6 +2028,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "6 x 9",
         "pages": "240",
@@ -1884,6 +2041,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "6 x 9",
         "pages": "240",
@@ -1896,6 +2054,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "6 x 9",
         "pages": "240",
@@ -1908,6 +2067,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "6 x 9",
         "pages": "240",
@@ -1920,6 +2080,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "7 x 10",
         "pages": "64",
@@ -1932,6 +2093,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "7 x 10",
         "pages": "64",
@@ -1944,6 +2106,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "7 x 10",
         "pages": "64",
@@ -1956,6 +2119,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "7 x 10",
         "pages": "64",
@@ -1968,6 +2132,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "7 x 10",
         "pages": "120",
@@ -1980,6 +2145,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "7 x 10",
         "pages": "120",
@@ -1992,6 +2158,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "7 x 10",
         "pages": "120",
@@ -2004,6 +2171,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "7 x 10",
         "pages": "120",
@@ -2016,6 +2184,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "7 x 10",
         "pages": "192",
@@ -2028,6 +2197,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "7 x 10",
         "pages": "192",
@@ -2040,6 +2210,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "7 x 10",
         "pages": "192",
@@ -2052,6 +2223,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "7 x 10",
         "pages": "192",
@@ -2064,6 +2236,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "7 x 10",
         "pages": "240",
@@ -2076,6 +2249,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "7 x 10",
         "pages": "240",
@@ -2088,6 +2262,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "7 x 10",
         "pages": "240",
@@ -2100,6 +2275,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "7 x 10",
         "pages": "240",
@@ -2112,6 +2288,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "8 x 11",
         "pages": "64",
@@ -2124,6 +2301,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "8 x 11",
         "pages": "64",
@@ -2136,6 +2314,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "8 x 11",
         "pages": "64",
@@ -2148,6 +2327,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "8 x 11",
         "pages": "64",
@@ -2160,6 +2340,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "8 x 11",
         "pages": "120",
@@ -2172,6 +2353,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "8 x 11",
         "pages": "120",
@@ -2184,6 +2366,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "8 x 11",
         "pages": "120",
@@ -2196,6 +2379,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "8 x 11",
         "pages": "120",
@@ -2208,6 +2392,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "8 x 11",
         "pages": "192",
@@ -2220,6 +2405,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "8 x 11",
         "pages": "192",
@@ -2232,6 +2418,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "8 x 11",
         "pages": "192",
@@ -2244,6 +2431,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "8 x 11",
         "pages": "192",
@@ -2256,6 +2444,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "8 x 11",
         "pages": "240",
@@ -2268,6 +2457,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "8 x 11",
         "pages": "240",
@@ -2280,6 +2470,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "8 x 11",
         "pages": "240",
@@ -2292,6 +2483,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Green",
         "size": "8 x 11",
         "pages": "240",
@@ -2304,6 +2496,7 @@
         "backImage": "/media/color/green/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "5 x 8",
         "pages": "64",
@@ -2316,6 +2509,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "5 x 8",
         "pages": "64",
@@ -2328,6 +2522,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "5 x 8",
         "pages": "64",
@@ -2340,6 +2535,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "5 x 8",
         "pages": "64",
@@ -2352,6 +2548,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "5 x 8",
         "pages": "120",
@@ -2364,6 +2561,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "5 x 8",
         "pages": "120",
@@ -2376,6 +2574,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "5 x 8",
         "pages": "120",
@@ -2388,6 +2587,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "5 x 8",
         "pages": "120",
@@ -2400,6 +2600,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "5 x 8",
         "pages": "192",
@@ -2412,6 +2613,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "5 x 8",
         "pages": "192",
@@ -2424,6 +2626,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "5 x 8",
         "pages": "192",
@@ -2436,6 +2639,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "5 x 8",
         "pages": "192",
@@ -2448,6 +2652,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "5 x 8",
         "pages": "240",
@@ -2460,6 +2665,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "5 x 8",
         "pages": "240",
@@ -2472,6 +2678,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "5 x 8",
         "pages": "240",
@@ -2484,6 +2691,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "5 x 8",
         "pages": "240",
@@ -2496,6 +2704,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "6 x 9",
         "pages": "64",
@@ -2508,6 +2717,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "6 x 9",
         "pages": "64",
@@ -2520,6 +2730,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "6 x 9",
         "pages": "64",
@@ -2532,6 +2743,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "6 x 9",
         "pages": "64",
@@ -2544,6 +2756,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "6 x 9",
         "pages": "120",
@@ -2556,6 +2769,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "6 x 9",
         "pages": "120",
@@ -2568,6 +2782,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "6 x 9",
         "pages": "120",
@@ -2580,6 +2795,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "6 x 9",
         "pages": "120",
@@ -2592,6 +2808,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "6 x 9",
         "pages": "192",
@@ -2604,6 +2821,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "6 x 9",
         "pages": "192",
@@ -2616,6 +2834,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "6 x 9",
         "pages": "192",
@@ -2628,6 +2847,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "6 x 9",
         "pages": "192",
@@ -2640,6 +2860,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "6 x 9",
         "pages": "240",
@@ -2652,6 +2873,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "6 x 9",
         "pages": "240",
@@ -2664,6 +2886,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "6 x 9",
         "pages": "240",
@@ -2676,6 +2899,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "6 x 9",
         "pages": "240",
@@ -2688,6 +2912,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "7 x 10",
         "pages": "64",
@@ -2700,6 +2925,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "7 x 10",
         "pages": "64",
@@ -2712,6 +2938,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "7 x 10",
         "pages": "64",
@@ -2724,6 +2951,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "7 x 10",
         "pages": "64",
@@ -2736,6 +2964,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "7 x 10",
         "pages": "120",
@@ -2748,6 +2977,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "7 x 10",
         "pages": "120",
@@ -2760,6 +2990,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "7 x 10",
         "pages": "120",
@@ -2772,6 +3003,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "7 x 10",
         "pages": "120",
@@ -2784,6 +3016,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "7 x 10",
         "pages": "192",
@@ -2796,6 +3029,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "7 x 10",
         "pages": "192",
@@ -2808,6 +3042,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "7 x 10",
         "pages": "192",
@@ -2820,6 +3055,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "7 x 10",
         "pages": "192",
@@ -2832,6 +3068,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "7 x 10",
         "pages": "240",
@@ -2844,6 +3081,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "7 x 10",
         "pages": "240",
@@ -2856,6 +3094,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "7 x 10",
         "pages": "240",
@@ -2868,6 +3107,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "7 x 10",
         "pages": "240",
@@ -2880,6 +3120,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "8 x 11",
         "pages": "64",
@@ -2892,6 +3133,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "8 x 11",
         "pages": "64",
@@ -2904,6 +3146,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "8 x 11",
         "pages": "64",
@@ -2916,6 +3159,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "8 x 11",
         "pages": "64",
@@ -2928,6 +3172,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "8 x 11",
         "pages": "120",
@@ -2940,6 +3185,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "8 x 11",
         "pages": "120",
@@ -2952,6 +3198,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "8 x 11",
         "pages": "120",
@@ -2964,6 +3211,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "8 x 11",
         "pages": "120",
@@ -2976,6 +3224,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "8 x 11",
         "pages": "192",
@@ -2988,6 +3237,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "8 x 11",
         "pages": "192",
@@ -3000,6 +3250,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "8 x 11",
         "pages": "192",
@@ -3012,6 +3263,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "8 x 11",
         "pages": "192",
@@ -3024,6 +3276,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "8 x 11",
         "pages": "240",
@@ -3036,6 +3289,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "8 x 11",
         "pages": "240",
@@ -3048,6 +3302,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "8 x 11",
         "pages": "240",
@@ -3060,6 +3315,7 @@
         "backImage": "/media/color/yellow/back.png"
     },
     {
+        "collection": "Solid",
         "color": "Yellow",
         "size": "8 x 11",
         "pages": "240",

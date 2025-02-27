@@ -396,7 +396,7 @@ svg.logo {
     }
 
     .item_image:hover {
-        background-color: var(--color-gray-100);
+        background-color: var(--background_tertiary);
         transition: ease 0.3s;
     }
 

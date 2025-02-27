@@ -37,6 +37,35 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => console.error("Ошибка загрузки JSON:", error));
 
+    // В начале файла после объявления переменных
+    const domElements = {
+        images: {
+            front: document.getElementById("product-image-1"),
+            inside: document.getElementById("product-image-2"),
+            back: document.getElementById("product-image-3")
+        },
+        main: {
+            title: document.getElementById("product-title-main"),
+            style: document.getElementById("product-style-main"),
+            price: document.getElementById("product-price-main"),
+            color: document.getElementById("product-color-main"),
+            size: document.getElementById("product-size-main"),
+            pages: document.getElementById("product-pages-main")
+        },
+        floating: {
+            title: document.getElementById("product-title-floating"),
+            style: document.getElementById("product-style-floating"),
+            price: document.getElementById("product-price-floating"),
+            color: document.getElementById("product-color-floating"),
+            size: document.getElementById("product-size-floating"),
+            pages: document.getElementById("product-pages-floating")
+        },
+        buttons: {
+            main: document.getElementById("add-to-cart-btn"),
+            floating: document.getElementById("add-to-cart-btn-floating")
+        }
+    };
+
     function updateFilterButtonsState(product) {
         // Сбрасываем все кнопки
         document.querySelectorAll('.color-layout-filter-btn, .layout-filter-btn, .pages-filter-btn, .size-filter-btn')
@@ -77,35 +106,108 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function updateProductDisplay(product) {
-        // Обновляем изображения
-        document.getElementById("product-image-1").src = product.frontImage;
-        document.getElementById("product-image-2").src = product.insideImage;
-        document.getElementById("product-image-3").src = product.backImage;
+        // Используем кэшированные элементы
+        domElements.images.front.src = product.frontImage;
+        domElements.images.inside.src = product.insideImage;
+        domElements.images.back.src = product.backImage;
 
-        // Обновляем основной блок
-        document.getElementById("product-title-main").textContent = product.title;
-        document.getElementById("product-style-main").textContent = product.style;
-        document.getElementById("product-price-main").textContent = `$${parseFloat(product.price).toFixed(2)}`;
-        document.getElementById("product-color-main").textContent = product.color;
-        document.getElementById("product-size-main").textContent = `${product.size} in`;
-        document.getElementById("product-pages-main").textContent = `${product.pages} pages`;
+        domElements.main.title.textContent = product.title;
+        domElements.main.style.textContent = product.style;
+        domElements.main.price.textContent = `$${parseFloat(product.price).toFixed(2)}`;
+        domElements.main.color.textContent = product.color;
+        domElements.main.size.textContent = `${product.size} in`;
+        domElements.main.pages.textContent = `${product.pages} pages`;
 
-        // Обновляем плавающий блок
-        document.getElementById("product-title-floating").textContent = product.title;
-        document.getElementById("product-style-floating").textContent = product.style;
-        document.getElementById("product-price-floating").textContent = `$${parseFloat(product.price).toFixed(2)}`;
-        document.getElementById("product-color-floating").textContent = product.color;
-        document.getElementById("product-size-floating").textContent = `${product.size} in`;
-        document.getElementById("product-pages-floating").textContent = `${product.pages} pages`;
+        domElements.floating.title.textContent = product.title;
+        domElements.floating.style.textContent = product.style;
+        domElements.floating.price.textContent = `$${parseFloat(product.price).toFixed(2)}`;
+        domElements.floating.color.textContent = product.color;
+        domElements.floating.size.textContent = `${product.size} in`;
+        domElements.floating.pages.textContent = `${product.pages} pages`;
 
         // Обновляем ссылки на Amazon
-        const mainButton = document.getElementById("add-to-cart-btn");
-        const floatingButton = document.getElementById("add-to-cart-btn-floating");
+        const mainButton = domElements.buttons.main;
+        const floatingButton = domElements.buttons.floating;
 
         if (product.link) {
             mainButton.onclick = () => window.open(product.link, "_blank");
             floatingButton.onclick = () => window.open(product.link, "_blank");
         }
+
+        // Добавляем отображение похожих товаров
+        renderSimilarItems(allProducts, product);
+    }
+
+    function renderSimilarItems(allProducts, currentProduct) {
+        const grid = document.getElementById("item_grid");
+        const template = document.getElementById("item_template");
+
+        if (!template || !grid) {
+            console.error("Ошибка: Шаблон или грид не найден!");
+            return;
+        }
+
+        grid.innerHTML = ""; // Очищаем контейнер
+
+        // Группируем товары по коллекции и цвету и сразу фильтруем текущий товар
+        const uniqueItems = allProducts.reduce((acc, item) => {
+            const key = `${item.collection}_${item.color.toLowerCase()}`;
+            // Проверяем не только цвет и коллекцию, но и минимальную цену для каждой группы
+            if (!acc.has(key) || parseFloat(acc.get(key).price) > parseFloat(item.price)) {
+                acc.set(key, item);
+            }
+            return acc;
+        }, new Map());
+
+        // Преобразуем Map обратно в массив, исключаем текущий товар и сортируем по цене
+        const similarItems = Array.from(uniqueItems.values())
+            .filter(item => item.color !== currentProduct.color)
+            .sort((a, b) => parseFloat(a.price) - parseFloat(b.price));
+
+        similarItems.forEach((item) => {
+            const clone = template.content.cloneNode(true);
+            const itemElement = clone.querySelector(".item");
+            const imageContainer = clone.querySelector(".item_image");
+
+            itemElement.setAttribute("data-color", item.color.toLowerCase());
+            imageContainer.style.backgroundImage = `url(${item.frontImage})`;
+
+            clone.querySelector(".item_title").textContent = item.title;
+            clone.querySelector(".item_price").textContent = `from $${parseFloat(item.price).toFixed(2)}`;
+
+            // Добавляем зоны наведения
+            const hoverLeft = clone.querySelector(".image-hover-zone.left");
+            const hoverCenter = clone.querySelector(".image-hover-zone.center");
+            const hoverRight = clone.querySelector(".image-hover-zone.right");
+
+            hoverLeft.addEventListener("mouseenter", () => {
+                imageContainer.style.backgroundImage = `url(${item.frontImage})`;
+            });
+
+            hoverCenter.addEventListener("mouseenter", () => {
+                imageContainer.style.backgroundImage = `url(${item.insideImage})`;
+            });
+
+            hoverRight.addEventListener("mouseenter", () => {
+                imageContainer.style.backgroundImage = `url(${item.backImage})`;
+            });
+
+            imageContainer.addEventListener("mouseleave", () => {
+                imageContainer.style.backgroundImage = `url(${item.frontImage})`;
+            });
+
+            itemElement.addEventListener("click", () => {
+                // Ищем товар с минимальной ценой для данного цвета
+                const cheapestVariant = allProducts
+                    .filter(prod => prod.color === item.color)
+                    .sort((a, b) => parseFloat(a.price) - parseFloat(b.price))[0];
+                
+                const originalIndex = allProducts.indexOf(cheapestVariant);
+                window.location.href = `/product/product.html?id=${originalIndex + 1}`;
+            });
+
+            grid.appendChild(clone);
+        });
     }
 
     function setupFilterListeners() {
@@ -156,7 +258,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Логика появления и исчезновения плавающего блока
     const floatingBlock = document.querySelector(".fade-in-bottom");
     const footer = document.getElementById("footer-container");
-    const triggerHeight = window.innerHeight / 2;
+    const triggerHeight = window.innerHeight;
 
     function handleScroll() {
         const footerRect = footer.getBoundingClientRect();
