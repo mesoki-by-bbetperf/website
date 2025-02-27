@@ -76,7 +76,7 @@ function renderItems(items) {
 
         // **Открываем товар в новом окне**
         itemElement.addEventListener("click", () => {
-            window.location.href = `/product/product.html?id=${item.id}`;
+            window.location.href = `/product/index.html?id=${item.id}`;
         });
 
         grid.appendChild(clone);

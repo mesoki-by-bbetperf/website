@@ -203,7 +203,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     .sort((a, b) => parseFloat(a.price) - parseFloat(b.price))[0];
                 
                 const originalIndex = allProducts.indexOf(cheapestVariant);
-                window.location.href = `/product/product.html?id=${originalIndex + 1}`;
+                window.location.href = `/product/index.html?id=${originalIndex + 1}`;
             });
 
             grid.appendChild(clone);
