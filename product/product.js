@@ -203,7 +203,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     .sort((a, b) => parseFloat(a.price) - parseFloat(b.price))[0];
                 
                 const originalIndex = allProducts.indexOf(cheapestVariant);
-                window.location.href = `/product/index.html?id=${originalIndex + 1}`;
+                window.location.href = `/product/?id=${originalIndex + 1}`;
             });
 
             grid.appendChild(clone);
@@ -248,7 +248,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         const newId = allProducts.indexOf(matchingProduct) + 1;
                         const newUrl = new URL(window.location.href);
                         newUrl.searchParams.set('id', newId);
-                        window.history.pushState({}, '', newUrl);
+                        window.history.replaceState(null, '', newUrl);
                     }
                 });
             });
@@ -272,4 +272,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     window.addEventListener("scroll", handleScroll);
+
+    // При инициализации страницы
+    window.onload = function() {
+        // Добавляем обработчик события popstate
+        window.addEventListener('popstate', function(event) {
+            // Перенаправляем на главную страницу
+            window.location.href = '/'; // Замените на ваш URL главной страницы
+        });
+    }
 });
