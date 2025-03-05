@@ -173,7 +173,7 @@ document.addEventListener("DOMContentLoaded", function () {
             imageContainer.style.backgroundImage = `url(${item.frontImage})`;
 
             clone.querySelector(".item_title").textContent = item.title;
-            clone.querySelector(".item_price").textContent = `from $${parseFloat(item.price).toFixed(2)}`;
+            clone.querySelector(".item_price").textContent = `$${parseFloat(item.price).toFixed(2)}`;
 
             // Добавляем зоны наведения
             const hoverLeft = clone.querySelector(".image-hover-zone.left");

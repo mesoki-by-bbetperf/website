@@ -310,11 +310,16 @@
     --width-xl: 24rem;
     --width-xxl: 32rem;
     --width-xxxl: 48rem;
+    --header-height: 5rem;
 }
 
 body {
     margin: 0;
     padding: 0;
+}
+
+main {
+    padding-top: 5rem;
 }
 
 html {
@@ -383,6 +388,10 @@ svg.logo {
     padding: 0;
     fill: var(--color-neutral-950);
     transition: ease 0.3s;
+}
+
+header {
+    height: var(--header-height);
 }
 
 @media screen and (min-width: 768px) {

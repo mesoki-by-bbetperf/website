@@ -34,8 +34,8 @@
 
 <body class="display-flex flex-direction-column justify-content-space-between">
     <div id="loader" class="fade-in"></div>
-    <div>
-        <div id="header-container"></div>
+    <div id="header-container"></div>
+    <main>
         <section class="fade-in display-flex justify-content-center gap-lg padding-xxxl sm-padding-xl">
             <div class="fade-in display-flex max-width-default width-100 aspect-ratio-16-9 sm-aspect-ratio-1-1 box-sizing-border-box flex-direction-column justify-content-end align-items-start gap-xxxl padding-xxxl sm-padding-xl border-radius-lg outline"
                 data-bg="media/other/testImage.png">
@@ -48,11 +48,12 @@
                     now</a>
             </div>
         </section>
-        <section id="target-element" data-scroll-target
+        <section id="target-element" style="scroll-margin-top: var(--header-height);"
             class="fade-in display-flex padding-xxxl sm-padding-xl outline-top-and-bottom background-color-primary justify-content-center">
             <div class="fade-in max-width-default width-100 display-flex flex-direction-column align-items-left gap-sm">
-                <h1 class="fade-in font-weight-500 text-align-left">Shop notebooks</h1>
-                <h5 class="fade-in text-secondary font-weight-350 text-align-left">Browse our collection of shiny colors
+                <h1 class="fade-in font-weight-500 text-align-left">Solid Collection</h1>
+                <h5 class="fade-in text-secondary font-weight-350 text-align-left">Browse our collection of shiny
+                    colors
                 </h5>
             </div>
         </section>
@@ -127,7 +128,7 @@
                 </div>
             </div>
         </template>
-    </div>
+    </main>
     <div id="footer-container"></div>
 </body>
 

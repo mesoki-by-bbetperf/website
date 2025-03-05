@@ -48,7 +48,7 @@ function renderItems(items) {
         imageContainer.style.backgroundImage = `url(${item.frontImage})`; // Дефолтное изображение (передняя сторона)
 
         clone.querySelector(".item_title").textContent = item.title;
-        clone.querySelector(".item_price").textContent = `from $${parseFloat(item.price).toFixed(2)}`;
+        clone.querySelector(".item_price").textContent = `$${parseFloat(item.price).toFixed(2)}`;
 
         // **Получаем зоны наведения**
         const hoverLeft = clone.querySelector(".image-hover-zone.left");
