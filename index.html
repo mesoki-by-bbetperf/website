@@ -135,14 +135,14 @@
         const shopNowLink = document.querySelector('a[href="#target-element"]');
 
         // Добавляем обработчик события
-        shopNowLink.addEventListener('click', function(e) {
+        shopNowLink.addEventListener('click', function (e) {
             e.preventDefault(); // Предотвращаем стандартное поведение
-            
+
             // Плавно скроллим к элементу
-            document.getElementById('target-element').scrollIntoView({ 
-                behavior: 'smooth' 
+            document.getElementById('target-element').scrollIntoView({
+                behavior: 'smooth'
             });
-            
+
             // Удаляем хэш из URL через небольшую задержку
             setTimeout(() => {
                 history.replaceState(null, '', window.location.pathname);
