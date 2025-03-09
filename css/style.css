@@ -324,7 +324,7 @@ main {
 
 html {
     background-color: var(--background_secondary);
-    font-size: clamp(14px, 1vw, 16px);
+    font-size: clamp(12px, 1vw, 14px);
     transition: background-color 0.3s ease, color 0.3s ease-in-out;
     scroll-behavior: smooth;
 }
@@ -397,6 +397,7 @@ header {
 @media screen and (min-width: 768px) {
     svg.logo:hover {
         fill: var(--color-neutral-600);
+        transition: ease 0.3s;
     }
 
     .item:hover {
@@ -432,6 +433,17 @@ header {
     .footer-link:hover {
         color: var(--text_primary);
         transition: ease 0.3s;
+    }
+
+    .primary-btn:hover {
+        background-color: var(--color-neutral-600);
+        transition: ease 0.3s;
+    }
+
+    .inactive-filter.filter-btn:hover {
+        background-color: var(--background_tertiary) !important;
+        color: var(--text_primary) !important;
+        transition: ease 0.3s !important;
     }
 }
 
@@ -496,7 +508,7 @@ button {
     background-color: var(--color-neutral-950);
     color: var(--text_primary_inverse);
     transition: ease 0.3s;
-    padding: var(--spacing-sm) var(--spacing-sm);
+    padding: var(--spacing-md) var(--spacing-sm);
     border: none;
     font-family: "Inter", serif;
     font-optical-sizing: auto;
@@ -579,13 +591,13 @@ a {
 ul {
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-sm);
-    list-style-type: decimal;
-    margin-block-start: var(--spacing-sm);
+    gap: var(--spacing-xs);
+    list-style-type: none;
+    margin-block-start: var(--spacing-lg);
     margin-block-end: var(--spacing-none);
     margin-inline-start: var(--spacing-none);
     margin-inline-end: var(--spacing-none);
-    padding-inline-start: var(--spacing-xxxl);
+    padding-inline-start: var(--spacing-lg);
     unicode-bidi: isolate;
 }
 

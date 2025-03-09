@@ -71,6 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.querySelectorAll('.color-layout-filter-btn, .layout-filter-btn, .pages-filter-btn, .size-filter-btn')
             .forEach(btn => {
                 btn.classList.remove('active-filter');
+                btn.classList.add('inactive-filter');
                 btn.style.backgroundColor = 'var(--background-primary)';
                 btn.style.color = 'var(--text-primary)';
             });
@@ -87,6 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const button = document.querySelector(selector);
             if (button) {
                 button.classList.add('active-filter');
+                button.classList.remove('inactive-filter');
                 if (type === 'color') {
                     button.style.backgroundColor = colorMap[product.color.toLowerCase()] || 'var(--color-black)';
                     button.style.color = 'white';
@@ -96,6 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         .forEach(btn => {
                             btn.style.backgroundColor = colorMap[product.color.toLowerCase()] || 'var(--color-black)';
                             btn.style.color = 'white';
+                            btn.classList.remove('inactive-filter');
                         });
                 } else {
                     button.style.backgroundColor = colorMap[product.color.toLowerCase()] || 'var(--color-black)';
