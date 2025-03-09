@@ -261,7 +261,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Логика появления и исчезновения плавающего блока
     const floatingBlock = document.querySelector(".fade-in-bottom");
     const footer = document.getElementById("footer-container");
-    const triggerHeight = window.innerHeight;
+    const triggerHeight = window.innerHeight * 1.5;
 
     function handleScroll() {
         const footerRect = footer.getBoundingClientRect();

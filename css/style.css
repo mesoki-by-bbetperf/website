@@ -396,7 +396,7 @@ header {
 
 @media screen and (min-width: 768px) {
     svg.logo:hover {
-        fill: var(--color-neutral-600);
+        fill: var(--color-neutral-700);
         transition: ease 0.3s;
     }
 
@@ -406,7 +406,7 @@ header {
     }
 
     .item_image:hover {
-        background-color: var(--background_tertiary);
+        background-color: var(--background_secondary);
         transition: ease 0.3s;
     }
 
@@ -436,7 +436,7 @@ header {
     }
 
     .primary-btn:hover {
-        background-color: var(--color-neutral-600);
+        background-color: var(--color-neutral-700);
         transition: ease 0.3s;
     }
 
