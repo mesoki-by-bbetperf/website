@@ -243,11 +243,11 @@
     --color-stone-950: oklch(0.147 0.004 49.25);
     --color-black: #000;
     --color-white: #fff;
-    --color-brand-yellow: #FFD400;
-    --color-brand-blue: #0080FF;
+    --color-brand-yellow: #FEDD00;
+    --color-brand-blue: #009ACE;
     --color-brand-orange: #FF6A00;
-    --color-brand-green: #48D900;
-    --color-brand-red: #FF1A40;
+    --color-brand-green: #00B140;
+    --color-brand-red: #E4002B;
     --color-brand-purple: #A000FF;
     --color-brand-pink: #FF00A0;
     --background_primary: var(--color-white);
@@ -316,10 +316,6 @@
 body {
     margin: 0;
     padding: 0;
-}
-
-main {
-    padding-top: 5rem;
 }
 
 html {
