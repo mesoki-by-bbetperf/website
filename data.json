@@ -566,7 +566,7 @@
         "style": "Line",
         "title": "Solid Yellow",
         "price": "9.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F1N75PTC",
         "frontImage": "/media/notebook/7.5x9.75/color/yellow/front.png",
         "insideImage": "/media/notebook/7.5x9.75/layout/line/line.png",
         "backImage": "/media/notebook/7.5x9.75/color/yellow/back.png"
@@ -605,7 +605,7 @@
         "style": "Grid",
         "title": "Solid Yellow",
         "price": "8.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F1MSZSWY",
         "frontImage": "/media/notebook/5x8.25/color/yellow/front.png",
         "insideImage": "/media/notebook/5x8.25/layout/grid/grid.png",
         "backImage": "/media/notebook/5x8.25/color/yellow/back.png"
@@ -618,7 +618,7 @@
         "style": "Grid",
         "title": "Solid Yellow",
         "price": "9.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F1MT7M66",
         "frontImage": "/media/notebook/7.5x9.75/color/yellow/front.png",
         "insideImage": "/media/notebook/7.5x9.75/layout/grid/grid.png",
         "backImage": "/media/notebook/7.5x9.75/color/yellow/back.png"
