@@ -2,16 +2,13 @@
 <g clip-path="url(#clip0_6302_178)">
 <rect width="32" height="32" rx="16" fill="#E4002B"/>
 <g clip-path="url(#clip1_6302_178)">
-<g style="mix-blend-mode:hard-light" opacity="0.5">
+<g opacity="0.5">
 <path d="M0 0H32.0001V32H0V0Z" fill="url(#paint0_linear_6302_178)"/>
 <path d="M0 0H32.0001V32H0V0Z" fill="url(#paint1_radial_6302_178)"/>
 </g>
-<g style="mix-blend-mode:overlay">
-<path d="M0 0H32V32H0V0Z" fill="url(#paint2_linear_6302_178)"/>
-<path d="M0 0H32V32H0V0Z" fill="url(#paint3_radial_6302_178)" fill-opacity="0.64" style="mix-blend-mode:color"/>
 </g>
 </g>
-</g>
+<rect x="0.25" y="0.25" width="31.5" height="31.5" rx="15.75" stroke="black" stroke-opacity="0.32" stroke-width="0.5"/>
 <defs>
 <linearGradient id="paint0_linear_6302_178" x1="-2.47457e-09" y1="-2.47306e-09" x2="16.7629" y2="38.598" gradientUnits="userSpaceOnUse">
 <stop stop-color="white"/>
@@ -20,14 +17,6 @@
 <radialGradient id="paint1_radial_6302_178" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-3.45555e-08 -0.0193926) rotate(44.9999) scale(45.2549 42.1664)">
 <stop stop-color="white"/>
 <stop offset="0.5" stop-color="white" stop-opacity="0"/>
-</radialGradient>
-<linearGradient id="paint2_linear_6302_178" x1="-2.70959e-07" y1="1.16764e-06" x2="38.2198" y2="11.7243" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0.5"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<radialGradient id="paint3_radial_6302_178" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16 16) rotate(45) scale(22.6274)">
-<stop stop-color="white" stop-opacity="0.5"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
 </radialGradient>
 <clipPath id="clip0_6302_178">
 <rect width="32" height="32" rx="16" fill="white"/>
