@@ -66,7 +66,23 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     };
 
+    function updateFaviconByColor(color) {
+        const faviconUrl = `/favicon/favicon-${color}.svg`; // путь к фавикону
+    
+        let link = document.querySelector("link[rel~='icon']");
+        if (!link) {
+            link = document.createElement('link');
+            link.rel = 'icon';
+            document.head.appendChild(link);
+        }
+        link.href = faviconUrl;
+        link.type = 'image/svg+xml';
+    }
+
     function updateFilterButtonsState(product) {
+
+        updateFaviconByColor(product.color.toLowerCase());
+
         // Сбрасываем все кнопки
         document.querySelectorAll('.color-layout-filter-btn, .layout-filter-btn, .pages-filter-btn, .size-filter-btn')
             .forEach(btn => {
