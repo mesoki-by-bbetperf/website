@@ -436,7 +436,7 @@
         "style": "Grid",
         "title": "Solid Green",
         "price": "7.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F26N73JC",
         "frontImage": "/media/notebook/7.5x9.75/color/green/front.png",
         "insideImage": "/media/notebook/7.5x9.75/layout/grid/grid.png",
         "backImage": "/media/notebook/7.5x9.75/color/green/back.png"
@@ -449,7 +449,7 @@
         "style": "Grid",
         "title": "Solid Green",
         "price": "8.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F26RSLM6",
         "frontImage": "/media/notebook/5x8.25/color/green/front.png",
         "insideImage": "/media/notebook/5x8.25/layout/grid/grid.png",
         "backImage": "/media/notebook/5x8.25/color/green/back.png"
@@ -462,7 +462,7 @@
         "style": "Grid",
         "title": "Solid Green",
         "price": "9.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F26RBM9R",
         "frontImage": "/media/notebook/7.5x9.75/color/green/front.png",
         "insideImage": "/media/notebook/7.5x9.75/layout/grid/grid.png",
         "backImage": "/media/notebook/7.5x9.75/color/green/back.png"
