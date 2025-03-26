@@ -345,7 +345,7 @@
         "style": "Dot",
         "title": "Solid Green",
         "price": "8.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F2J6BFCF",
         "frontImage": "/media/notebook/5x8.25/color/green/front.png",
         "insideImage": "/media/notebook/5x8.25/layout/dot/dot.png",
         "backImage": "/media/notebook/5x8.25/color/green/back.png"
@@ -371,7 +371,7 @@
         "style": "Line",
         "title": "Solid Green",
         "price": "6.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F2J6WK4W",
         "frontImage": "/media/notebook/5x8.25/color/green/front.png",
         "insideImage": "/media/notebook/5x8.25/layout/line/line.png",
         "backImage": "/media/notebook/5x8.25/color/green/back.png"
@@ -384,7 +384,7 @@
         "style": "Line",
         "title": "Solid Green",
         "price": "7.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F2J7V9Q2",
         "frontImage": "/media/notebook/7.5x9.75/color/green/front.png",
         "insideImage": "/media/notebook/7.5x9.75/layout/line/line.png",
         "backImage": "/media/notebook/7.5x9.75/color/green/back.png"
@@ -397,7 +397,7 @@
         "style": "Line",
         "title": "Solid Green",
         "price": "8.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F29X572Y",
         "frontImage": "/media/notebook/5x8.25/color/green/front.png",
         "insideImage": "/media/notebook/5x8.25/layout/line/line.png",
         "backImage": "/media/notebook/5x8.25/color/green/back.png"
@@ -410,7 +410,7 @@
         "style": "Line",
         "title": "Solid Green",
         "price": "9.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F29TH5GM",
         "frontImage": "/media/notebook/7.5x9.75/color/green/front.png",
         "insideImage": "/media/notebook/7.5x9.75/layout/line/line.png",
         "backImage": "/media/notebook/7.5x9.75/color/green/back.png"
@@ -423,7 +423,7 @@
         "style": "Grid",
         "title": "Solid Green",
         "price": "6.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F29X81NP",
         "frontImage": "/media/notebook/5x8.25/color/green/front.png",
         "insideImage": "/media/notebook/5x8.25/layout/grid/grid.png",
         "backImage": "/media/notebook/5x8.25/color/green/back.png"
