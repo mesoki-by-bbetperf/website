@@ -241,7 +241,7 @@
         "style": "Line",
         "title": "Solid Blue",
         "price": "8.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F314NMFY",
         "frontImage": "/media/notebook/5x8.25/color/blue/front.png",
         "insideImage": "/media/notebook/5x8.25/layout/line/line.png",
         "backImage": "/media/notebook/5x8.25/color/blue/back.png"
@@ -254,7 +254,7 @@
         "style": "Line",
         "title": "Solid Blue",
         "price": "9.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F315VNRX",
         "frontImage": "/media/notebook/7.5x9.75/color/blue/front.png",
         "insideImage": "/media/notebook/7.5x9.75/layout/line/line.png",
         "backImage": "/media/notebook/7.5x9.75/color/blue/back.png"
@@ -267,7 +267,7 @@
         "style": "Grid",
         "title": "Solid Blue",
         "price": "6.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F315KKHB",
         "frontImage": "/media/notebook/5x8.25/color/blue/front.png",
         "insideImage": "/media/notebook/5x8.25/layout/grid/grid.png",
         "backImage": "/media/notebook/5x8.25/color/blue/back.png"
@@ -280,7 +280,7 @@
         "style": "Grid",
         "title": "Solid Blue",
         "price": "7.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F2ZSVYDG",
         "frontImage": "/media/notebook/7.5x9.75/color/blue/front.png",
         "insideImage": "/media/notebook/7.5x9.75/layout/grid/grid.png",
         "backImage": "/media/notebook/7.5x9.75/color/blue/back.png"
@@ -293,7 +293,7 @@
         "style": "Grid",
         "title": "Solid Blue",
         "price": "8.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F2ZTDBMJ",
         "frontImage": "/media/notebook/5x8.25/color/blue/front.png",
         "insideImage": "/media/notebook/5x8.25/layout/grid/grid.png",
         "backImage": "/media/notebook/5x8.25/color/blue/back.png"
@@ -306,7 +306,7 @@
         "style": "Grid",
         "title": "Solid Blue",
         "price": "9.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F2ZVRNN6",
         "frontImage": "/media/notebook/7.5x9.75/color/blue/front.png",
         "insideImage": "/media/notebook/7.5x9.75/layout/grid/grid.png",
         "backImage": "/media/notebook/7.5x9.75/color/blue/back.png"
@@ -319,7 +319,7 @@
         "style": "Dot",
         "title": "Solid Green",
         "price": "6.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F2YVZSX7",
         "frontImage": "/media/notebook/5x8.25/color/green/front.png",
         "insideImage": "/media/notebook/5x8.25/layout/dot/dot.png",
         "backImage": "/media/notebook/5x8.25/color/green/back.png"
@@ -332,7 +332,7 @@
         "style": "Dot",
         "title": "Solid Green",
         "price": "7.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F2YY6J7T",
         "frontImage": "/media/notebook/7.5x9.75/color/green/front.png",
         "insideImage": "/media/notebook/7.5x9.75/layout/dot/dot.png",
         "backImage": "/media/notebook/7.5x9.75/color/green/back.png"
@@ -345,7 +345,7 @@
         "style": "Dot",
         "title": "Solid Green",
         "price": "8.99",
-        "link": "https://www.amazon.com/dp/B0F2J6BFCF",
+        "link": "https://www.amazon.com/dp/B0F2YX1JQP",
         "frontImage": "/media/notebook/5x8.25/color/green/front.png",
         "insideImage": "/media/notebook/5x8.25/layout/dot/dot.png",
         "backImage": "/media/notebook/5x8.25/color/green/back.png"
@@ -358,7 +358,7 @@
         "style": "Dot",
         "title": "Solid Green",
         "price": "9.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F2J6BFCF",
         "frontImage": "/media/notebook/7.5x9.75/color/green/front.png",
         "insideImage": "/media/notebook/7.5x9.75/layout/dot/dot.png",
         "backImage": "/media/notebook/7.5x9.75/color/green/back.png"
