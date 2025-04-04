@@ -85,7 +85,7 @@
         "style": "Line",
         "title": "Solid Red",
         "price": "8.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F3NMV32Z",
         "frontImage": "/media/notebook/5x8.25/color/red/front.png",
         "insideImage": "/media/notebook/5x8.25/layout/line/line.png",
         "backImage": "/media/notebook/5x8.25/color/red/back.png"
@@ -98,7 +98,7 @@
         "style": "Line",
         "title": "Solid Red",
         "price": "9.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F3NQ4Z69",
         "frontImage": "/media/notebook/7.5x9.75/color/red/front.png",
         "insideImage": "/media/notebook/7.5x9.75/layout/line/line.png",
         "backImage": "/media/notebook/7.5x9.75/color/red/back.png"
@@ -111,7 +111,7 @@
         "style": "Grid",
         "title": "Solid Red",
         "price": "6.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F3NK29WC",
         "frontImage": "/media/notebook/5x8.25/color/red/front.png",
         "insideImage": "/media/notebook/5x8.25/layout/grid/grid.png",
         "backImage": "/media/notebook/5x8.25/color/red/back.png"
@@ -124,7 +124,7 @@
         "style": "Grid",
         "title": "Solid Red",
         "price": "7.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F3D7PD6S",
         "frontImage": "/media/notebook/7.5x9.75/color/red/front.png",
         "insideImage": "/media/notebook/7.5x9.75/layout/grid/grid.png",
         "backImage": "/media/notebook/7.5x9.75/color/red/back.png"
@@ -137,7 +137,7 @@
         "style": "Grid",
         "title": "Solid Red",
         "price": "8.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F3D4FVHC",
         "frontImage": "/media/notebook/5x8.25/color/red/front.png",
         "insideImage": "/media/notebook/5x8.25/layout/grid/grid.png",
         "backImage": "/media/notebook/5x8.25/color/red/back.png"
@@ -150,7 +150,7 @@
         "style": "Grid",
         "title": "Solid Red",
         "price": "9.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F3D72KDF",
         "frontImage": "/media/notebook/7.5x9.75/color/red/front.png",
         "insideImage": "/media/notebook/7.5x9.75/layout/grid/grid.png",
         "backImage": "/media/notebook/7.5x9.75/color/red/back.png"
@@ -163,7 +163,7 @@
         "style": "Dot",
         "title": "Solid Blue",
         "price": "6.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F37QHDQK",
         "frontImage": "/media/notebook/5x8.25/color/blue/front.png",
         "insideImage": "/media/notebook/5x8.25/layout/dot/dot.png",
         "backImage": "/media/notebook/5x8.25/color/blue/back.png"
@@ -176,7 +176,7 @@
         "style": "Dot",
         "title": "Solid Blue",
         "price": "7.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F385F43Y",
         "frontImage": "/media/notebook/7.5x9.75/color/blue/front.png",
         "insideImage": "/media/notebook/7.5x9.75/layout/dot/dot.png",
         "backImage": "/media/notebook/7.5x9.75/color/blue/back.png"
@@ -189,7 +189,7 @@
         "style": "Dot",
         "title": "Solid Blue",
         "price": "8.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F3813N5Y",
         "frontImage": "/media/notebook/5x8.25/color/blue/front.png",
         "insideImage": "/media/notebook/5x8.25/layout/dot/dot.png",
         "backImage": "/media/notebook/5x8.25/color/blue/back.png"
@@ -202,7 +202,7 @@
         "style": "Dot",
         "title": "Solid Blue",
         "price": "9.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F31YBB99",
         "frontImage": "/media/notebook/7.5x9.75/color/blue/front.png",
         "insideImage": "/media/notebook/7.5x9.75/layout/dot/dot.png",
         "backImage": "/media/notebook/7.5x9.75/color/blue/back.png"
@@ -215,7 +215,7 @@
         "style": "Line",
         "title": "Solid Blue",
         "price": "6.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F31Y1TC2",
         "frontImage": "/media/notebook/5x8.25/color/blue/front.png",
         "insideImage": "/media/notebook/5x8.25/layout/line/line.png",
         "backImage": "/media/notebook/5x8.25/color/blue/back.png"
@@ -228,7 +228,7 @@
         "style": "Line",
         "title": "Solid Blue",
         "price": "7.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F31ZMHP5",
         "frontImage": "/media/notebook/7.5x9.75/color/blue/front.png",
         "insideImage": "/media/notebook/7.5x9.75/layout/line/line.png",
         "backImage": "/media/notebook/7.5x9.75/color/blue/back.png"
