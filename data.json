@@ -7,7 +7,7 @@
         "style": "Dot",
         "title": "Solid Red",
         "price": "6.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F3VLBP28",
         "frontImage": "/media/notebook/5x8.25/color/red/front.png",
         "insideImage": "/media/notebook/5x8.25/layout/dot/dot.png",
         "backImage": "/media/notebook/5x8.25/color/red/back.png"
@@ -20,7 +20,7 @@
         "style": "Dot",
         "title": "Solid Red",
         "price": "7.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F3VLK83J",
         "frontImage": "/media/notebook/7.5x9.75/color/red/front.png",
         "insideImage": "/media/notebook/7.5x9.75/layout/dot/dot.png",
         "backImage": "/media/notebook/7.5x9.75/color/red/back.png"
@@ -33,7 +33,7 @@
         "style": "Dot",
         "title": "Solid Red",
         "price": "8.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F3VKN4MN",
         "frontImage": "/media/notebook/5x8.25/color/red/front.png",
         "insideImage": "/media/notebook/5x8.25/layout/dot/dot.png",
         "backImage": "/media/notebook/5x8.25/color/red/back.png"
@@ -46,7 +46,7 @@
         "style": "Dot",
         "title": "Solid Red",
         "price": "9.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F3TMC5YK",
         "frontImage": "/media/notebook/7.5x9.75/color/red/front.png",
         "insideImage": "/media/notebook/7.5x9.75/layout/dot/dot.png",
         "backImage": "/media/notebook/7.5x9.75/color/red/back.png"
@@ -59,7 +59,7 @@
         "style": "Line",
         "title": "Solid Red",
         "price": "6.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F3TJJR2R",
         "frontImage": "/media/notebook/5x8.25/color/red/front.png",
         "insideImage": "/media/notebook/5x8.25/layout/line/line.png",
         "backImage": "/media/notebook/5x8.25/color/red/back.png"
@@ -72,7 +72,7 @@
         "style": "Line",
         "title": "Solid Red",
         "price": "7.99",
-        "link": "https://www.amazon.com/",
+        "link": "https://www.amazon.com/dp/B0F3TCKTBD",
         "frontImage": "/media/notebook/7.5x9.75/color/red/front.png",
         "insideImage": "/media/notebook/7.5x9.75/layout/line/line.png",
         "backImage": "/media/notebook/7.5x9.75/color/red/back.png"
